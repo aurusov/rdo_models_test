@@ -1,0 +1,4 @@
+
+Event_2.Planning( Time_now, 2 )
+
+Terminate_if _Resource.state == buzy

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<test>
+    <model>resource_erase_event.rdox</model>
+    <target>CONSOLE</target>
+    <exit_code>3</exit_code>
+    <log_compilation>resource_erase_event.rlog</log_compilation>
+</test>

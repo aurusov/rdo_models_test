@@ -1,0 +1,21 @@
+Results_file   = mymodel2.pmv    2012-Jun-18 13:22:46.386654
+Run_file       = mymodel2.smr
+Model_name     = mymodel2
+Resource_file  = mymodel2.rss
+
+$Changes
+
+
+$Status = NORMAL_TERMINATION
+$Result_values  0  5051.16  0.074
+  EventCount           303  0.0599862  4094
+  OperRuleCheckCounter 0  0  0
+  AExpCalcCounter      310  0.0613721  4189
+  BExpCalcCounter      2129  0.421488  28770
+
+Занятость_парикмахера         	TRUE	19	0.877315	4.9124e+06	20.3783	1845.13
+Длина_очереди                 	2	264	2.75699	1.56872e+06	0	9
+Всего_обслужено               	150
+Пропускная_способность        	1.78177
+Длительность_работы           	84.186
+

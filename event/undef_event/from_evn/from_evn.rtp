@@ -1,0 +1,4 @@
+$Resource_type Парикмахерские: permanent
+$Parameters
+	количество_обслуженных: integer = 0
+$End

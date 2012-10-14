@@ -1,0 +1,21 @@
+Results_file   = mymodel.pmv    2012-Jun-19 16:24:57.986784
+Run_file       = mymodel.smr
+Model_name     = mymodel
+Resource_file  = mymodel.rss
+
+$Changes
+
+
+$Status = NO_MORE_EVENTS
+$Result_values  0  110  0.042
+  EventCount           7  0.0636364  166
+  OperRuleCheckCounter 0  0  0
+  AExpCalcCounter      14  0.127273  333
+  BExpCalcCounter      49  0.445455  1166
+
+Занятость_парикмахера         	FALSE	0	0	0	1.79769e+308	2.22507e-308
+Длина_очереди                 	6	6	3.27273	25600	0	6
+Всего_обслужено               	0
+Пропускная_способность        	0
+Длительность_работы           	110
+
