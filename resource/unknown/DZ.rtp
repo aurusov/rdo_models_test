@@ -1,0 +1,4 @@
+$Resource_type ресурсы: permanent
+$Parameters
+	состояние: (Свободен, Занят)
+$End

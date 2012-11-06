@@ -1,0 +1,19 @@
+$Pattern Событие_прихода_заготовки: event trace
+$Relevant_resources
+	_робот: робот Keep
+$Body
+	_робот
+	Convert_event
+		Событие_начала_перемещения_1.Planning(Time_now + Интервал_прихода_заготок(160,165,170));
+$End
+
+$Pattern Событие_начала_перемещения_1: event trace
+$Relevant_resources
+	_робот: робот Keep
+$Body
+	_робот
+	Convert_event
+		состояние = Занят;
+$End
+
+

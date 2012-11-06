@@ -1,0 +1,38 @@
+Results_file   = undef_test.pmv    2012-Sep-10 13:12:56.480709
+Run_file       = undef_test.smr
+Model_name     = undef_test
+Resource_file  = undef_test.rss
+
+$Changes
+
+
+$Resource_type
+1 Парикмахерские 3
+  1 состояние_парикмахера E 2
+    0 Свободен
+    1 Занят
+  2 количество_в_очереди I
+  3 количество_обслуженных I
+
+$Resources
+1 Парикмахерская 1
+
+$Pattern
+1 Образец_прихода_клиента I 1 1
+2 Образец_прихода_парикмахера I 1 1
+3 Образец_обслуживания_клиента A 1 1
+
+$Activities
+
+1 Образец_прихода_клиента 1
+2 Образец_прихода_парикмахера 2
+3 Обслуживание_клиента 3
+
+
+$Watching
+
+$Tracing
+ES 0 2
+$Status = RUN_TIME_ERROR 0
+
+DPS_MM 5218

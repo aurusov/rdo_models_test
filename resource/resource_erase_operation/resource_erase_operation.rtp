@@ -1,0 +1,4 @@
+$Resource_type Парикмахеры: temporary
+$Parameters
+	состояние             : ( Свободен, Занят ) = Свободен
+$End

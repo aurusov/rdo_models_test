@@ -1,0 +1,17 @@
+$Pattern Событие_1: event
+$Relevant_resources
+	_ресурс: ресурс Keep
+$Body
+	_ресурс
+	Convert_event
+		Событие_2.Planning(Time_now + Последовательность_1(160,190,200));
+$End
+
+$Pattern Событие_2: event
+$Relevant_resources
+	_ресурс: ресурс Keep
+$Body
+	_ресурс
+	Convert_event
+		состояние = Занят;
+$End

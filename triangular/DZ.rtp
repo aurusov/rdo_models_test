@@ -1,0 +1,6 @@
+$Resource_type роботы: permanent
+$Parameters
+	состояние				: ( Свободен, Занят )
+	очередь_на_входе		: integer
+	очередь_после_станка	: integer
+$End

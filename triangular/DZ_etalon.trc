@@ -1,0 +1,42 @@
+Results_file   = DZ.pmv    2012-Sep-10 13:05:22.412738
+Run_file       = DZ.smr
+Model_name     = DZ
+Resource_file  = DZ.rss
+
+$Changes
+
+
+$Resource_type
+1 роботы 3
+  1 состояние E 2
+    0 Свободен
+    1 Занят
+  2 очередь_на_входе I
+  3 очередь_после_станка I
+
+$Resources
+1 робот 1
+
+$Pattern
+1 Событие_прихода_заготовки I 1 1
+2 Событие_начала_перемещения_1 I 1 1
+
+$Activities
+
+1 Событие_прихода_заготовки 1
+2 Событие_начала_перемещения_1 2
+
+$Watching
+
+$Tracing
+ES 0 1
+RK 0 1 1 0 0 0
+ES 0 3
+EI 0 1 1 1  1
+RK 0 1 1 0 0 0
+EI 163.983 2 2 1  1
+RK 163.983 1 1 1 0 0
+ES 163.983 2
+$Status = NORMAL_TERMINATION 163.983
+
+DPS_MM 3444

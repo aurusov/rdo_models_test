@@ -1,0 +1,9 @@
+$Pattern Образец_прихода_заявки : event
+$Relevant_resources
+	_СМО_1: Тестовая_СМО_1 Keep
+$Body
+_СМО_1
+	Convert_event
+		Образец_прихода_заявки.planning( time_now + Интервал_прихода( 30 ) );
+		количество_в_очереди++;
+$End

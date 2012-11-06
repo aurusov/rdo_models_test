@@ -1,0 +1,4 @@
+$Results
+    Парикмахеры           : watch_quant Парикмахеры NoCheck
+	Длительность_работы   : get_value   Time_now
+$End

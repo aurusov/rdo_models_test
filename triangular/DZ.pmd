@@ -1,0 +1,4 @@
+$Results 
+	Длительность 		: get_value Time_now
+	Занятость_робота	: watch_state робот 	.состояние == Занят
+$End

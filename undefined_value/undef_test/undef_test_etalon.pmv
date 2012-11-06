@@ -1,0 +1,16 @@
+Results_file   = undef_test.pmv    2012-Sep-10 13:12:56.515711
+Run_file       = undef_test.smr
+Model_name     = undef_test
+Resource_file  = undef_test.rss
+
+$Changes
+
+
+$Status = RUN_TIME_ERROR
+$Result_values  0  0  0.035
+  EventCount           0  -1.#IND  0
+  OperRuleCheckCounter 0  -1.#IND  0
+  AExpCalcCounter      3  1.#INF  85
+  BExpCalcCounter      1  1.#INF  28
+
+

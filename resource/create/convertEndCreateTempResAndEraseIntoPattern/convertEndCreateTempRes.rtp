@@ -1,0 +1,10 @@
+$Resource_type resourceType: permanent
+$Parameters
+	Состояние : (Свободен, Занят)
+$End
+
+$Resource_type Транзакты: temporary
+$Parameters
+	Время_создания: real
+$End
+

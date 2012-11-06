@@ -1,0 +1,6 @@
+$Decision_point удаление: some
+$Condition  true
+$Activities
+	Удаление_парикмахера: образец_удаления_парикмахера
+$End
+
