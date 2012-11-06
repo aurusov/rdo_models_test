@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<test>
+ <model>generateAdvanceTerminate.rdox</model>
+ <target>CONSOLE</target>
+ <exit_code>0</exit_code>
+ <trace>generateAdvanceTerminate.trc</trace>
+ <result>generateAdvanceTerminate.pmv</result>
+</test>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<test>
+ <model>queueAdvanceDepart.rdox</model>
+ <target>CONSOLE</target>
+ <exit_code>0</exit_code>
+ <trace>queueAdvanceDepart_etalon.trc</trace>
+ <result>queueAdvanceDepart_etalon.pmv</result>
+</test>

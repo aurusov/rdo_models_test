@@ -1,0 +1,16 @@
+Results_file   = generateAdvanceTerminate.pmv    2012-Sep-14 17:01:27.981283
+Run_file       = generateAdvanceTerminate.smr
+Model_name     = generateAdvanceTerminate
+Resource_file  = generateAdvanceTerminate.rss
+
+$Changes
+
+
+$Status = NORMAL_TERMINATION
+$Result_values  0  7510  0.069
+  EventCount           0  0  0
+  OperRuleCheckCounter 0  0  0
+  AExpCalcCounter      0  0  0
+  BExpCalcCounter      602  0.0801598  8724
+
+

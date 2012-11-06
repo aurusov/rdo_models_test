@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<test>
+ <model>allProcessOperators.rdox</model>
+ <target>CONSOLE</target>
+ <exit_code>0</exit_code>
+ <trace>allProcessOperators_etalon.trc</trace>
+ <result>allProcessOperators_etalon.pmv</result>
+</test>
