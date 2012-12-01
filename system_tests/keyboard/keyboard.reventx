@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<events>
+ <event name="exit">
+    <type>keyboard</type>
+    <time>10.0</time>
+    <state>up</state>
+    <key>VK_A</key>
+ </event>
+ <event>
+    <type>keyboard</type>
+    <time>100.0</time>
+    <state>down</state>
+    <key>VK_A</key>
+ </event>
+</events>

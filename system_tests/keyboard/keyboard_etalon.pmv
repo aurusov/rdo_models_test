@@ -1,0 +1,23 @@
+Results_file   = mymodel.pmv    2012-Sep-14 17:20:41.768276
+Run_file       = mymodel.smr
+Model_name     = mymodel
+Resource_file  = mymodel.rss
+
+$Changes
+
+
+$Status = NORMAL_TERMINATION
+$Result_values  0  203.524  1.719
+  EventCount           5  0.0245671  2
+  OperRuleCheckCounter 7  0.034394  4
+  AExpCalcCounter      4  0.0196537  2
+  BExpCalcCounter      108  0.53065  62
+
+Занятость_парикмахера_1       	FALSE	0	0	0	1.79769e+308	2.22507e-308
+Занятость_парикмахера_2       	FALSE	1	0.201439	1680.81	40.9977	40.9977
+Занятость_парикмахера_3       	FALSE	0	0	0	1.79769e+308	2.22507e-308
+Обслужено_парикмахером_1      	0
+Обслужено_парикмахером_2      	1
+Обслужено_парикмахером_3      	0
+Длина_очереди                 	3	5	2.00687	53492.1	0	4
+
