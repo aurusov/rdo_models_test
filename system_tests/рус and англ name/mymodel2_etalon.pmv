@@ -1,0 +1,21 @@
+Results_file   = bad_name1/model2.pmv    2012-Dec-06 16:47:08.980748
+Run_file       = bad_name1/model2.smr
+Model_name     = bad_name1/model2
+Resource_file  = bad_name1/model2.rss
+
+$Changes
+
+
+$Status = NORMAL_TERMINATION
+$Result_values  0  5051.16  0.101
+  EventCount           303  0.0599862  3000
+  OperRuleCheckCounter 454  0.0898804  4495
+  AExpCalcCounter      156  0.030884  1544
+  BExpCalcCounter      3355  0.664204  33217
+
+Занятость_парикмахера         	Тип:	state	Посл.знач.:	FALSE	% соотв.:	0.877315	Мин.длит.:	20.021139	Макс.длит.:	39.995826	Числ.наб.:	150
+Длина_очереди                 	Тип:	par	Посл.знач.:	3	Ср.знач.:	2.756990	Мин.знач.:	0	Макс.знач.:	9	Числ.наб.:	304	Стд.откл.:	2.344657	К.вар.%:	199.399130	Медиана:	1.227200
+Всего_обслужено               	Тип:	get_value	Значение:	150
+Пропускная_способность        	Тип:	get_value	Значение:	1.78177
+Длительность_работы           	Тип:	get_value	Значение:	84.186
+
