@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<test>
+  <model name="division_by_zero_error.rdox" target="CONSOLE" exit_code="4"/>
+</test>

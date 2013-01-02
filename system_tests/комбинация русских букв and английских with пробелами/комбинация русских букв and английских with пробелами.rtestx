@@ -1,8 +1,4 @@
 <?xml version="1.0"?>
 <test>
-  <model>simple_qs.rdox</model>
-  <target>CONSOLE</target>
-  <exit_code>0</exit_code>
-  <trace>simple_qs_etalon.trc</trace>
-  <result>simple_qs_etalon.pmv</result>
+  <model name="комбинация русских букв and английских with пробелами.rdox" target="CONSOLE" exit_code="0" trace="комбинация русских букв and английских with пробелами_etalon.trc" result="комбинация русских букв and английских with пробелами_etalon.pmv"/>
 </test>

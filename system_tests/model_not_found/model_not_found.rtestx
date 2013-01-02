@@ -1,6 +1,4 @@
 <?xml version="1.0"?>
 <test>
-  <model>model_not_found.rdox</model>
-  <target>CONSOLE</target>
-  <exit_code>1</exit_code>
+  <model name="model_not_found.rdox" target="CONSOLE" exit_code="1"/>
 </test>
