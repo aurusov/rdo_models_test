@@ -1,14 +1,11 @@
 <?xml version="1.0"?>
 <rscript>
 	<events>
-		<event name="press" type="key" time="100.0">
-			<param  state="0" key="100" />
+		<event name="press" type="key" time="300.0">
+			<param  state="0" key="57" />
 		</event>
-		<event name="release" type="key" time="150.0">
-			<param  state="1" key="100" />
-		</event>
-		<event name="move" type="mouse" time="200.0">
-			<param  button="0" x="100" y="100" />
+		<event name="release" type="key" time="400.0">
+			<param  state="1" key="57" />
 		</event>
 	</events>
 </rscript>
