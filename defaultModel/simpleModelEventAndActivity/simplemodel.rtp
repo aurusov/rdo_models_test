@@ -1,5 +1,5 @@
 $Resource_type Парикмахерские: permanent
-$Parameters
+$Parameters 
 	состояние_парикмахера : ( Свободен, Занят )
 	количество_в_очереди  : integer
 	количество_обслуженных: integer
