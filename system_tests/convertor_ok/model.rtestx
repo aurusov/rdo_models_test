@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<test>
+  <model name="model.smr" target="CONVERTOR" exit_code="0"/>
+  <etalons>
+    <file source="model.smr"  target="etalons/model.smr"/>
+    <file source="model.rdox" target="etalons/model.rdox"/>
+    <file source="model.evn"  target="etalons/model.evn"/>
+    <file source="model.pmd"  target="etalons/model.pmd"/>
+    <file source="model.dpt"  target="etalons/model.dpt"/>
+    <file source="model.fun"  target="etalons/model.fun"/>
+    <file source="model.rss"  target="etalons/model.rss"/>
+    <file source="model.rtp"  target="etalons/model.rtp"/>
+    <file source="model.pat"  target="etalons/model.pat"/>
+  </etalons>
+</test>
