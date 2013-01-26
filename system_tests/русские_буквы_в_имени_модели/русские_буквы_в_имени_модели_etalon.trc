@@ -1,7 +1,7 @@
-Results_file   = simple_qs.pmv    2012-May-20 22:52:09.325062
-Run_file       = simple_qs.smr
-Model_name     = simple_qs
-Resource_file  = simple_qs.rss
+Results_file   = русские_буквы_в_имени_модели.pmv    2013-Jan-26 11:07:04.324823
+Run_file       = русские_буквы_в_имени_модели.smr
+Model_name     = русские_буквы_в_имени_модели
+Resource_file  = русские_буквы_в_имени_модели.rss
 
 $Changes
 
@@ -489,4 +489,4 @@ RK 5051.16 1 1 0 3 150
 ES 5051.16 2
 $Status = NORMAL_TERMINATION 5051.16
 
-DPS_MM 4615
+DPS_MM 3267

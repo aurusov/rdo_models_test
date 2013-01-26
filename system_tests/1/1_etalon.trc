@@ -1,4 +1,4 @@
-Results_file   = 1.pmv    2012-May-20 22:52:09.325062
+Results_file   = 1.pmv    2013-Jan-26 11:09:45.130697
 Run_file       = 1.smr
 Model_name     = 1
 Resource_file  = 1.rss
@@ -489,4 +489,4 @@ RK 5051.16 1 1 0 3 150
 ES 5051.16 2
 $Status = NORMAL_TERMINATION 5051.16
 
-DPS_MM 4615
+DPS_MM 3267
