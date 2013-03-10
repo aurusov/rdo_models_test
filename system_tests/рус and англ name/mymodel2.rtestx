@@ -1,4 +1,8 @@
 <?xml version="1.0"?>
 <test>
-  <model name="mymodel2.rdox" target="CONSOLE" exit_code="0" trace="mymodel2_etalon.trc" result="mymodel2_etalon.pmv"/>
+  <model name="mymodel2.rdox" target="CONSOLE" exit_code="0"/>
+  <etalons>
+    <file source="mymodel2.trc" target="mymodel2_etalon.trc" type="TRACE"/>
+    <file source="mymodel2.pmv" target="mymodel2_etalon.pmv" type="RESULT"/>
+  </etalons>
 </test>

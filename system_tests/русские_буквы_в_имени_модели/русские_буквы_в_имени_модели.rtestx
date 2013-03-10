@@ -1,4 +1,8 @@
 <?xml version="1.0"?>
 <test>
-  <model name="русские_буквы_в_имени_модели.rdox" target="CONSOLE" exit_code="0" trace="русские_буквы_в_имени_модели_etalon.trc" result="русские_буквы_в_имени_модели_etalon.pmv"/>
+  <model name="русские_буквы_в_имени_модели.rdox" target="CONSOLE" exit_code="0"/>
+  <etalons>
+    <file source="русские_буквы_в_имени_модели.trc" target="русские_буквы_в_имени_модели_etalon.trc" type="TRACE"/>
+    <file source="русские_буквы_в_имени_модели.pmv" target="русские_буквы_в_имени_модели_etalon.pmv" type="RESULT"/>
+  </etalons>
 </test>

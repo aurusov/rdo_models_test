@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <test>
-  <model name="комбинация русских букв and английских with пробелами.rdox" target="CONSOLE" exit_code="0" trace="комбинация русских букв and английских with пробелами_etalon.trc" result="комбинация русских букв and английских with пробелами_etalon.pmv"/>
+  <model name="комбинация русских букв and английских with пробелами.rdox" target="CONSOLE" exit_code="0"/>
+  <etalons>
+    <file source="комбинация русских букв and английских with пробелами.trc" target="комбинация русских букв and английских with пробелами_etalon.trc" type="TRACE"/>
+    <file source="комбинация русских букв and английских with пробелами.pmv" target="комбинация русских букв and английских with пробелами_etalon.pmv" type="RESULT"/>
+  </etalons>
 </test>

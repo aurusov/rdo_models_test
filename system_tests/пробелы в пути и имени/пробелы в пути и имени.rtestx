@@ -1,4 +1,8 @@
 <?xml version="1.0"?>
 <test>
-  <model name="пробелы в пути и имени.rdox" target="CONSOLE" exit_code="0" trace="пробелы в пути и имени etalon.trc" result="пробелы в пути и имени etalon.pmv"/>
+  <model name="пробелы в пути и имени.rdox" target="CONSOLE" exit_code="0" trace="" result=""/>
+  <etalons>
+    <file source="пробелы в пути и имени.trc" target="пробелы в пути и имени etalon.trc" type="TRACE"/>
+    <file source="пробелы в пути и имени.pmv" target="пробелы в пути и имени etalon.pmv" type="RESULT"/>
+  </etalons>
 </test>
