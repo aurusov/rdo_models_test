@@ -1,0 +1,17 @@
+Results_file   = queueAdvanceDepart.pmv    2013-Apr-02 12:09:02.185377
+Run_file       = queueAdvanceDepart.smr
+Model_name     = queueAdvanceDepart
+Resource_file  = queueAdvanceDepart.rss
+
+$Changes
+
+
+$Status = NORMAL_TERMINATION
+$Result_values  0  910  0.323
+  EventCount           0  0  0
+  OperRuleCheckCounter 0  0  0
+  AExpCalcCounter      0  0  0
+  BExpCalcCounter      92  0.101099  284
+
+Очередь_tran                  	Тип:	par	Посл.знач.:	0	Ср.знач.:	0.098901	Мин.знач.:	0	Макс.знач.:	1	Числ.наб.:	19	Стд.откл.:	0.298529	К.вар.%:	90.109890	Медиана:	0.001427
+

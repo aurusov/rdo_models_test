@@ -1,0 +1,51 @@
+Results_file   = queueAdvanceDepart.pmv    2013-Apr-02 12:09:01.861358
+Run_file       = queueAdvanceDepart.smr
+Model_name     = queueAdvanceDepart
+Resource_file  = queueAdvanceDepart.rss
+
+$Changes
+
+
+$Resource_type
+1 trans 1
+  1 Время_создания R
+2 QDEPART 1
+  1 длина_очереди I
+
+$Resources
+1 tran 2
+
+$Pattern
+
+$Activities
+
+
+
+$Watching
+
+$Tracing
+ES 0 1
+RK 0 2 1 0
+ES 0 3
+RC 100 1 2 0 100
+RE 110 1 2 0 100
+RC 200 1 2 0 200
+RE 210 1 2 0 200
+RC 300 1 2 0 300
+RE 310 1 2 0 300
+RC 400 1 2 0 400
+RE 410 1 2 0 400
+RC 500 1 2 0 500
+RE 510 1 2 0 500
+RC 600 1 2 0 600
+RE 610 1 2 0 600
+RC 700 1 2 0 700
+RE 710 1 2 0 700
+RC 800 1 2 0 800
+RE 810 1 2 0 800
+RC 900 1 2 0 900
+RE 910 1 2 0 900
+ES 910 2
+$Status = NORMAL_TERMINATION 910
+
+DPS_MM 1809
