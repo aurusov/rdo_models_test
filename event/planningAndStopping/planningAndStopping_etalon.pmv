@@ -1,0 +1,21 @@
+Results_file   = planningAndStopping.pmv    2013-Apr-02 11:45:52.624899
+Run_file       = planningAndStopping.smr
+Model_name     = planningAndStopping
+Resource_file  = planningAndStopping.rss
+
+$Changes
+
+
+$Status = NO_MORE_EVENTS
+$Result_values  0  110  0.175
+  EventCount           7  0.0636364  40
+  OperRuleCheckCounter 0  0  0
+  AExpCalcCounter      13  0.118182  74
+  BExpCalcCounter      49  0.445455  280
+
+Занятость_парикмахера         	Тип:	state	Посл.знач.:	FALSE	% соотв.:	0.000000	Мин.длит.:	0.000000	Макс.длит.:	0.000000	Числ.наб.:	0
+Длина_очереди                 	Тип:	par	Посл.знач.:	6	Ср.знач.:	3.272727	Мин.знач.:	0	Макс.знач.:	6	Числ.наб.:	7	Стд.откл.:	нет данных	К.вар.%:	нет данных	Медиана:	2.100000
+Всего_обслужено               	Тип:	get_value	Значение:	0
+Пропускная_способность        	Тип:	get_value	Значение:	0
+Длительность_работы           	Тип:	get_value	Значение:	110
+

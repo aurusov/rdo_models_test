@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <test>
-  <model>planningAndStopping.rdox</model>
-  <target>CONSOLE</target>
-  <exit_code>0</exit_code>
-  <trace>planningAndStopping_etalon.trc</trace>
-  <result>planningAndStopping_etalon.pmv</result>
+  <model name="planningAndStopping.rdox" target="CONSOLE" exit_code="0"/>
+  <etalons>
+    <file source="planningAndStopping.trc" target="planningAndStopping_etalon.trc" type="TRACE"/>
+    <file source="planningAndStopping.pmv" target="planningAndStopping_etalon.pmv" type="RESULT"/>
+  </etalons>
 </test>
