@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <test>
- <model>generateSeizeReleaseTerminate.rdox</model>
- <target>CONSOLE</target>
- <exit_code>0</exit_code>
- <trace>generateSeizeReleaseTerminate_etalon.trc</trace>
- <result>generateSeizeReleaseTerminate_etalon.pmv</result>
+  <model name="generateSeizeReleaseTerminate.rdox" target="CONSOLE" exit_code="0"/>
+  <etalons>
+    <file source="generateSeizeReleaseTerminate.trc" target="generateSeizeReleaseTerminate_etalon.trc" type="TRACE"/>
+    <file source="generateSeizeReleaseTerminate.pmv" target="generateSeizeReleaseTerminate_etalon.pmv" type="RESULT"/>
+  </etalons>
 </test>
