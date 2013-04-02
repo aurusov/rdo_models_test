@@ -1,0 +1,115 @@
+Results_file   = math.pmv    2013-Apr-02 11:56:21.748882
+Run_file       = math.smr
+Model_name     = math
+Resource_file  = math.rss
+
+$Changes
+
+
+$Status = NO_MORE_EVENTS
+$Result_values  0  0  0.094
+  EventCount           0  -1.#IND  0
+  OperRuleCheckCounter 0  -1.#IND  0
+  AExpCalcCounter      27  1.#INF  287
+  BExpCalcCounter      0  -1.#IND  0
+
+sin1                          	Тип:	get_value	Значение:	0.841471
+sin2                          	Тип:	get_value	Значение:	1
+sin3                          	Тип:	get_value	Значение:	0.00159265
+sin4                          	Тип:	get_value	Значение:	0.958924
+sin5                          	Тип:	get_value	Значение:	-0.750987
+Abs1                          	Тип:	get_value	Значение:	145.544
+Abs2                          	Тип:	get_value	Значение:	989
+cos1                          	Тип:	get_value	Значение:	0.540302
+cos2                          	Тип:	get_value	Значение:	-3.67321e-06
+cos3                          	Тип:	get_value	Значение:	-0.999999
+cos4                          	Тип:	get_value	Значение:	0.283662
+cos5                          	Тип:	get_value	Значение:	0.660317
+ArcSin1                       	Тип:	get_value	Значение:	1.5708
+ArcSin2                       	Тип:	get_value	Значение:	0.111229
+ArcSin3                       	Тип:	get_value	Значение:	-0.304693
+ArcSin4                       	Тип:	get_value	Значение:	0.411517
+ArcSin5                       	Тип:	get_value	Значение:	0.523599
+ArcCos1                       	Тип:	get_value	Значение:	0
+ArcCos2                       	Тип:	get_value	Значение:	1.45957
+ArcCos3                       	Тип:	get_value	Значение:	1.87549
+ArcCos4                       	Тип:	get_value	Значение:	1.15928
+ArcCos5                       	Тип:	get_value	Значение:	1.0472
+ArcTan1                       	Тип:	get_value	Значение:	0.785398
+ArcTan2                       	Тип:	get_value	Значение:	0.110547
+ArcTan3                       	Тип:	get_value	Значение:	-0.291457
+ArcTan4                       	Тип:	get_value	Значение:	0.380506
+ArcTan5                       	Тип:	get_value	Значение:	0.463648
+Cotan1                        	Тип:	get_value	Значение:	0.642093
+Cotan2                        	Тип:	get_value	Значение:	-3.67321e-06
+Cotan3                        	Тип:	get_value	Значение:	-627.882
+Cotan4                        	Тип:	get_value	Значение:	-0.642093
+Cotan5                        	Тип:	get_value	Значение:	-0.879265
+Exp1                          	Тип:	get_value	Значение:	2.71828
+Exp2                          	Тип:	get_value	Значение:	4.8105
+Exp3                          	Тип:	get_value	Значение:	23.1039
+Exp4                          	Тип:	get_value	Значение:	0.367879
+Exp5                          	Тип:	get_value	Значение:	6.566e+07
+Floor1                        	Тип:	get_value	Значение:	18
+Floor2                        	Тип:	get_value	Значение:	-19
+Frac1                         	Тип:	get_value	Значение:	0.5766
+Frac2                         	Тип:	get_value	Значение:	-0.5
+IAbs1                         	Тип:	get_value	Значение:	18
+IAbs2                         	Тип:	get_value	Значение:	90
+IMax1                         	Тип:	get_value	Значение:	5
+IMax2                         	Тип:	get_value	Значение:	5
+IMax3                         	Тип:	get_value	Значение:	-1
+IMax4                         	Тип:	get_value	Значение:	-1
+IMin1                         	Тип:	get_value	Значение:	1
+IMin2                         	Тип:	get_value	Значение:	-1
+IMin3                         	Тип:	get_value	Значение:	-5
+IMin4                         	Тип:	get_value	Значение:	-5
+Int1                          	Тип:	get_value	Значение:	18
+Int2                          	Тип:	get_value	Значение:	-18
+IntPower1                     	Тип:	get_value	Значение:	4
+IntPower2                     	Тип:	get_value	Значение:	4
+IntPower3                     	Тип:	get_value	Значение:	-8
+Ln1                           	Тип:	get_value	Значение:	0
+Ln2                           	Тип:	get_value	Значение:	2.30259
+Ln3                           	Тип:	get_value	Значение:	1.60944
+Ln4                           	Тип:	get_value	Значение:	-1.#IND
+Ln5                           	Тип:	get_value	Значение:	4.38341
+Log101                        	Тип:	get_value	Значение:	0
+Log102                        	Тип:	get_value	Значение:	1
+Log103                        	Тип:	get_value	Значение:	0.69897
+Log104                        	Тип:	get_value	Значение:	-1.#IND
+Log105                        	Тип:	get_value	Значение:	1.90369
+Log21                         	Тип:	get_value	Значение:	0
+Log22                         	Тип:	get_value	Значение:	3.32193
+Log23                         	Тип:	get_value	Значение:	2.32193
+Log24                         	Тип:	get_value	Значение:	-1.#IND
+Log25                         	Тип:	get_value	Значение:	6.32393
+LogN1                         	Тип:	get_value	Значение:	0
+LogN2                         	Тип:	get_value	Значение:	0.676258
+LogN3                         	Тип:	get_value	Значение:	-1.#IND
+LogN4                         	Тип:	get_value	Значение:	-1.#IND
+LogN5                         	Тип:	get_value	Значение:	1.398
+Max1                          	Тип:	get_value	Значение:	5
+Max2                          	Тип:	get_value	Значение:	5
+Max3                          	Тип:	get_value	Значение:	-1
+Max4                          	Тип:	get_value	Значение:	-1.121
+Min1                          	Тип:	get_value	Значение:	1
+Min2                          	Тип:	get_value	Значение:	-1
+Min3                          	Тип:	get_value	Значение:	-5
+Min4                          	Тип:	get_value	Значение:	-5.11
+Power1                        	Тип:	get_value	Значение:	4
+Power2                        	Тип:	get_value	Значение:	4
+Power3                        	Тип:	get_value	Значение:	-8
+Round1                        	Тип:	get_value	Значение:	2
+Round2                        	Тип:	get_value	Значение:	-3
+Round3                        	Тип:	get_value	Значение:	-2
+Sqrt1                         	Тип:	get_value	Значение:	2
+Sqrt2                         	Тип:	get_value	Значение:	-1.#IND
+Sqrt3                         	Тип:	get_value	Значение:	5.84057
+Sqrt4                         	Тип:	get_value	Значение:	0
+tan1                          	Тип:	get_value	Значение:	1.55741
+tan2                          	Тип:	get_value	Значение:	-272242
+tan3                          	Тип:	get_value	Значение:	-0.00159265
+tan4                          	Тип:	get_value	Значение:	-1.55741
+tan5                          	Тип:	get_value	Значение:	-1.13731
+
