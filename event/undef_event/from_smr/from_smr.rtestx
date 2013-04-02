@@ -1,7 +1,4 @@
 <?xml version="1.0"?>
 <test>
-    <model>from_smr.rdox</model>
-    <target>CONSOLE</target>
-    <exit_code>3</exit_code>
-    <log_compilation>from_smr.rlog</log_compilation>
+    <model name="from_smr.rdox" target="CONSOLE" exit_code="3" log_compilation="from_smr.rlog"/>
 </test>
