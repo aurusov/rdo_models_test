@@ -1,0 +1,21 @@
+Results_file   = simplemodel.pmv    2013-Apr-02 11:38:10.129445
+Run_file       = simplemodel.smr
+Model_name     = simplemodel
+Resource_file  = simplemodel.rss
+
+$Changes
+
+
+$Status = NORMAL_TERMINATION
+$Result_values  0  5051.16  0.489
+  EventCount           303  0.0599862  619
+  OperRuleCheckCounter 454  0.0898804  928
+  AExpCalcCounter      456  0.0902763  932
+  BExpCalcCounter      3355  0.664204  6860
+
+Занятость_парикмахера         	Тип:	state	Посл.знач.:	FALSE	% соотв.:	0.877315	Мин.длит.:	20.021139	Макс.длит.:	39.995826	Числ.наб.:	150
+Длина_очереди                 	Тип:	par	Посл.знач.:	3	Ср.знач.:	2.756990	Мин.знач.:	0	Макс.знач.:	9	Числ.наб.:	304	Стд.откл.:	2.344657	К.вар.%:	199.399130	Медиана:	1.227200
+Всего_обслужено               	Тип:	get_value	Значение:	150
+Пропускная_способность        	Тип:	get_value	Значение:	1.78177
+Длительность_работы           	Тип:	get_value	Значение:	84.186
+

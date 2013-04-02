@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <test>
- <model>simplemodel.rdox</model>
- <target>CONSOLE</target>
- <exit_code>0</exit_code>
- <trace>simplemodel_etalon.trc</trace>
- <result>simplemodel_etalon.pmv</result>
+  <model name="simplemodel.rdox" target="CONSOLE" exit_code="0"/>
+  <etalons>
+    <file source="simplemodel.trc" target="simplemodel_etalon.trc" type="TRACE"/>
+    <file source="simplemodel.pmv" target="simplemodel_etalon.pmv" type="RESULT"/>
+  </etalons>
 </test>
