@@ -1,0 +1,21 @@
+Results_file   = mymodel.pmv    2013-Apr-02 11:42:49.618431
+Run_file       = mymodel.smr
+Model_name     = mymodel
+Resource_file  = mymodel.rss
+
+$Changes
+
+
+$Status = NORMAL_TERMINATION
+$Result_values  0  5061.31  0.224
+  EventCount           139  0.0274632  620
+  OperRuleCheckCounter 0  0  0
+  AExpCalcCounter      491  0.0970104  2191
+  BExpCalcCounter      911  0.179993  4066
+
+Занятость_станка              	Тип:	state	Посл.знач.:	FALSE	% соотв.:	0.000000	Мин.длит.:	0.000000	Макс.длит.:	0.000000	Числ.наб.:	0
+Длина_очереди                 	Тип:	par	Посл.знач.:	252	Ср.знач.:	126.683976	Мин.знач.:	0	Макс.знач.:	252	Числ.наб.:	140	Стд.откл.:	70.899126	К.вар.%:	3967.894117	Медиана:	11.305148
+Всего_обслужено               	Тип:	get_value	Значение:	138
+Пропускная_способность        	Тип:	get_value	Значение:	1.63594
+Длительность_работы           	Тип:	get_value	Значение:	84.3552
+
