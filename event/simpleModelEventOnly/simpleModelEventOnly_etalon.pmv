@@ -1,0 +1,21 @@
+Results_file   = simpleModelEventOnly.pmv    2013-Apr-02 11:52:23.919279
+Run_file       = simpleModelEventOnly.smr
+Model_name     = simpleModelEventOnly
+Resource_file  = simpleModelEventOnly.rss
+
+$Changes
+
+
+$Status = NORMAL_TERMINATION
+$Result_values  0  5051.16  0.357
+  EventCount           303  0.0599862  848
+  OperRuleCheckCounter 0  0  0
+  AExpCalcCounter      307  0.0607781  859
+  BExpCalcCounter      2129  0.421488  5963
+
+Занятость_парикмахера         	Тип:	state	Посл.знач.:	TRUE	% соотв.:	0.877315	Мин.длит.:	20.378273	Макс.длит.:	1845.131741	Числ.наб.:	20
+Длина_очереди                 	Тип:	par	Посл.знач.:	2	Ср.знач.:	2.756990	Мин.знач.:	0	Макс.знач.:	9	Числ.наб.:	265	Стд.откл.:	2.344657	К.вар.%:	199.399130	Медиана:	2.677639
+Всего_обслужено               	Тип:	get_value	Значение:	150
+Пропускная_способность        	Тип:	get_value	Значение:	1.78177
+Длительность_работы           	Тип:	get_value	Значение:	84.186
+
