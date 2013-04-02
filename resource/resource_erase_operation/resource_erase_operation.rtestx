@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <test>
- <model>resource_erase_operation.rdox</model>
- <target>CONSOLE</target>
- <exit_code>0</exit_code>
- <trace>resource_erase_operation_etalon.trc</trace>
- <result>resource_erase_operation_etalon.pmv</result>
+  <model name="resource_erase_operation.rdox" target="CONSOLE" exit_code="0"/>
+  <etalons>
+    <file source="resource_erase_operation.trc" target="resource_erase_operation_etalon.trc" type="TRACE"/>
+    <file source="resource_erase_operation.pmv" target="resource_erase_operation_etalon.pmv" type="RESULT"/>
+  </etalons>
 </test>
