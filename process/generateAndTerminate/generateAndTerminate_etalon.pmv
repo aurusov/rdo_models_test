@@ -1,0 +1,16 @@
+Results_file   = generateAndTerminate.pmv    2013-Apr-02 12:05:28.495154
+Run_file       = generateAndTerminate.smr
+Model_name     = generateAndTerminate
+Resource_file  = generateAndTerminate.rss
+
+$Changes
+
+
+$Status = NORMAL_TERMINATION
+$Result_values  0  7500  1.773
+  EventCount           0  0  0
+  OperRuleCheckCounter 0  0  0
+  AExpCalcCounter      0  0  0
+  BExpCalcCounter      302  0.0402667  170
+
+
