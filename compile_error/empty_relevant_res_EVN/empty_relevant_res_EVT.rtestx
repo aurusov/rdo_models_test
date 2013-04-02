@@ -1,7 +1,4 @@
 <?xml version="1.0"?>
 <test>
-    <model>empty_relevant_res_EVT.rdox</model>
-    <target>CONSOLE</target>
-    <exit_code>3</exit_code>
-    <log_compilation>empty_relevant_res_EVT.rlog</log_compilation>
+    <model name="empty_relevant_res_EVT.rdox" target="CONSOLE" exit_code="3" log_compilation="empty_relevant_res_EVT.rlog"/>
 </test>

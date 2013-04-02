@@ -1,7 +1,4 @@
 <?xml version="1.0"?>
 <test>
-    <model>empty_dpt_param.rdox</model>
-    <target>CONSOLE</target>
-    <exit_code>3</exit_code>
-    <log_compilation>empty_dpt_param.rlog</log_compilation>
+    <model name="empty_dpt_param.rdox" target="CONSOLE" exit_code="3" log_compilation="empty_dpt_param.rlog"/>
 </test>
