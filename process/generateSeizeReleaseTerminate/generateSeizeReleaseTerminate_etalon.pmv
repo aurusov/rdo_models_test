@@ -1,0 +1,16 @@
+Results_file   = generateSeizeReleaseTerminate.pmv    2013-Apr-02 12:07:36.445473
+Run_file       = generateSeizeReleaseTerminate.smr
+Model_name     = generateSeizeReleaseTerminate
+Resource_file  = generateSeizeReleaseTerminate.rss
+
+$Changes
+
+
+$Status = NORMAL_TERMINATION
+$Result_values  0  7500  2.119
+  EventCount           0  0  0
+  OperRuleCheckCounter 0  0  0
+  AExpCalcCounter      0  0  0
+  BExpCalcCounter      452  0.0602667  213
+
+
