@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <test>
-  <model>simpleModelEventOnly.rdox</model>
-  <target>CONSOLE</target>
-  <exit_code>0</exit_code>
-  <trace>simpleModelEventOnly_etalon.trc</trace>
-  <result>simpleModelEventOnly_etalon.pmv</result>
+  <model name="simpleModelEventOnly.rdox" target="CONSOLE" exit_code="0"/>
+  <etalons>
+    <file source="simpleModelEventOnly.trc" target="simpleModelEventOnly_etalon.trc" type="TRACE"/>
+    <file source="simpleModelEventOnly.pmv" target="simpleModelEventOnly_etalon.pmv" type="RESULT"/>
+  </etalons>
 </test>
