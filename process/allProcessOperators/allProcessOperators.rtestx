@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <test>
- <model>allProcessOperators.rdox</model>
- <target>CONSOLE</target>
- <exit_code>0</exit_code>
- <trace>allProcessOperators_etalon.trc</trace>
- <result>allProcessOperators_etalon.pmv</result>
+  <model name="allProcessOperators.rdox" target="CONSOLE" exit_code="0"/>
+  <etalons>
+    <file source="allProcessOperators.trc" target="allProcessOperators_etalon.trc" type="TRACE"/>
+    <file source="allProcessOperators.pmv" target="allProcessOperators_etalon.pmv" type="RESULT"/>
+  </etalons>
 </test>

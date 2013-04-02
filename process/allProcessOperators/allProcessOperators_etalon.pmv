@@ -1,0 +1,17 @@
+Results_file   = allProcessOperators.pmv    2013-Apr-02 12:01:42.827247
+Run_file       = allProcessOperators.smr
+Model_name     = allProcessOperators
+Resource_file  = allProcessOperators.rss
+
+$Changes
+
+
+$Status = NORMAL_TERMINATION
+$Result_values  0  107  0.465
+  EventCount           0  0  0
+  OperRuleCheckCounter 0  0  0
+  AExpCalcCounter      0  0  0
+  BExpCalcCounter      144  1.34579  309
+
+Очередь_FMS_IN                	Тип:	par	Посл.знач.:	4	Ср.знач.:	2.009346	Мин.знач.:	0	Макс.знач.:	5	Числ.наб.:	27	Стд.откл.:	1.384124	К.вар.%:	95.344490	Медиана:	1.459503
+
