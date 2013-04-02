@@ -1,0 +1,18 @@
+Results_file   = DZ.pmv    2013-Apr-02 12:28:29.114121
+Run_file       = DZ.smr
+Model_name     = DZ
+Resource_file  = DZ.rss
+
+$Changes
+
+
+$Status = NORMAL_TERMINATION
+$Result_values  0  163.983  0.139
+  EventCount           2  0.0121964  14
+  OperRuleCheckCounter 0  0  0
+  AExpCalcCounter      1  0.00609821  7
+  BExpCalcCounter      17  0.10367  122
+
+Длительность                  	Тип:	get_value	Значение:	163.983
+Занятость_робота              	Тип:	state	Посл.знач.:	TRUE	% соотв.:	0.000000	Мин.длит.:	0.000000	Макс.длит.:	0.000000	Числ.наб.:	1
+

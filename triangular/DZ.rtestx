@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <test>
- <model>DZ.rdox</model>
- <target>CONSOLE</target>
- <exit_code>0</exit_code>
- <trace>DZ_etalon.trc</trace>
- <result>DZ_etalon.pmv</result>
+  <model name="DZ.rdox" target="CONSOLE" exit_code="0"/>
+  <etalons>
+    <file source="DZ.trc" target="DZ_etalon.trc" type="TRACE"/>
+    <file source="DZ.pmv" target="DZ_etalon.pmv" type="RESULT"/>
+  </etalons>
 </test>
