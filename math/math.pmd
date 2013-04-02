@@ -1,0 +1,125 @@
+$Results
+	sin1                 : get_value sin(1)
+	sin2                 : get_value sin(1.5708)
+	sin3                 : get_value sin(3.14)
+	sin4                 : get_value sin(-5)
+	sin5                 : get_value sin(18)
+
+    Abs1                 : get_value Abs(-145.544)
+	Abs2                 : get_value Abs(989)
+	
+	cos1                 : get_value cos(1)
+	cos2                 : get_value cos(1.5708)
+	cos3                 : get_value cos(3.14)
+	cos4                 : get_value cos(-5)
+	cos5                 : get_value cos(18)
+	
+	ArcSin1              : get_value ArcSin(1)
+	ArcSin2              : get_value ArcSin(0.111)
+	ArcSin3              : get_value ArcSin(-0.3)
+	ArcSin4              : get_value ArcSin(0.4)
+	ArcSin5              : get_value ArcSin(0.5)
+	
+	ArcCos1              : get_value ArcCos(1)
+	ArcCos2              : get_value ArcCos(0.111)
+	ArcCos3              : get_value ArcCos(-0.3)
+	ArcCos4              : get_value ArcCos(0.4)
+	ArcCos5              : get_value ArcCos(0.5)
+	
+	ArcTan1              : get_value ArcTan(1)
+	ArcTan2              : get_value ArcTan(0.111)
+	ArcTan3              : get_value ArcTan(-0.3)
+	ArcTan4              : get_value ArcTan(0.4)
+	ArcTan5              : get_value ArcTan(0.5)
+	
+	Cotan1               : get_value Cotan(1)
+	Cotan2               : get_value Cotan(1.5708)
+	Cotan3               : get_value Cotan(3.14)
+	Cotan4               : get_value Cotan(-1)
+	Cotan5               : get_value Cotan(18)
+	
+	Exp1                 : get_value Exp(1)
+	Exp2                 : get_value Exp(1.5708)
+	Exp3                 : get_value Exp(3.14)
+	Exp4                 : get_value Exp(-1)
+	Exp5                 : get_value Exp(18)
+	
+	Floor1               : get_value Floor(18.6)
+	Floor2               : get_value Floor(-18.6)
+	
+	Frac1                : get_value Frac(18.5766)
+	Frac2                : get_value Frac(-18.5)
+	
+	IAbs1                : get_value IAbs(18.5766)
+	IAbs2                : get_value IAbs(-90.66)
+	
+	IMax1                : get_value IMax(1,5)
+	IMax2                : get_value IMax(-1,5)
+	IMax3                : get_value IMax(-1,-5)
+	IMax4                : get_value IMax(-1.121,-5.111) //!!!!!!!!!!!!!!!!!!!!
+	
+	IMin1                : get_value IMin(1,5)
+	IMin2                : get_value IMin(-1,5)
+	IMin3                : get_value IMin(-1,-5)
+	IMin4                : get_value IMin(-1.111,-5.11) //!!!!!!!!!!!!!!!!!!!!
+	
+	Int1                 : get_value Int(18.6)
+	Int2                 : get_value Int(-18.6) //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	
+	IntPower1            : get_value IntPower(2,2)
+	IntPower2            : get_value IntPower(-2,2)
+	IntPower3            : get_value IntPower(-2,3)
+	
+	Ln1                  : get_value Ln(1)
+	Ln2                  : get_value Ln(10)
+	Ln3                  : get_value Ln(5)
+	Ln4                  : get_value Ln(-1)
+	Ln5                  : get_value Ln(80.111)
+	
+	Log101               : get_value Log10(1)
+	Log102               : get_value Log10(10)
+	Log103               : get_value Log10(5)
+	Log104               : get_value Log10(-1)
+	Log105               : get_value Log10(80.111)
+	
+	Log21                : get_value Log2(1)
+	Log22                : get_value Log2(10)
+	Log23                : get_value Log2(5)
+	Log24                : get_value Log2(-1)
+	Log25                : get_value Log2(80.111)
+	
+	LogN1                : get_value LogN(1,3)
+	LogN2                : get_value LogN(10,30.111)
+	LogN3                : get_value LogN(5,-10)
+	LogN4                : get_value LogN(-1,10)
+	LogN5                : get_value LogN(80.111,23)
+	
+	Max1                 : get_value Max(1,5)
+	Max2                 : get_value Max(-1,5)
+	Max3                 : get_value Max(-1,-5)
+	Max4                 : get_value Max(-1.121,-5.111) 
+	
+	Min1                 : get_value Min(1,5)
+	Min2                 : get_value Min(-1,5)
+	Min3                 : get_value Min(-1,-5)
+	Min4                 : get_value Min(-1.111,-5.11)
+	
+	Power1               : get_value Power(2,2)
+	Power2               : get_value Power(-2,2) //!!!!!!!!!!!!!!!!!!!!!!!
+	Power3               : get_value Power(-2,3)  ///!!!!!!!!!!!!!!!!!!!!!!!!11
+	
+	Round1               : get_value Round(2.223232)
+	Round2               : get_value Round(-2.89889)
+	Round3               : get_value Round(-2.3333)
+	
+	Sqrt1                : get_value Sqrt(4)
+	Sqrt2                : get_value Sqrt(-4)
+	Sqrt3                : get_value Sqrt(34.1123)
+	Sqrt4                : get_value Sqrt(0)
+	
+	tan1                 : get_value tan(1)
+	tan2                 : get_value tan(1.5708)
+	tan3                 : get_value tan(3.14)
+	tan4                 : get_value tan(-1)
+	tan5                 : get_value tan(18)
+$End

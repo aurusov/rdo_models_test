@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<test>
+ <model>math.rdox</model>
+ <target>CONSOLE</target>
+ <exit_code>0</exit_code>
+ <trace>math_etalon.trc</trace>
+ <result>math_etalon.pmv</result>
+</test>
