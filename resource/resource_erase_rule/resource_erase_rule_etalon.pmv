@@ -1,0 +1,18 @@
+Results_file   = resource_erase_rule.pmv    2013-Apr-02 12:12:23.297880
+Run_file       = resource_erase_rule.smr
+Model_name     = resource_erase_rule
+Resource_file  = resource_erase_rule.rss
+
+$Changes
+
+
+$Status = NORMAL_TERMINATION
+$Result_values  0  100  0.134
+  EventCount           11  0.11  82
+  OperRuleCheckCounter 21  0.21  156
+  AExpCalcCounter      11  0.11  82
+  BExpCalcCounter      66  0.66  492
+
+Парикмахеры                   	Тип:	quant	Посл.знач.:	1	Ср.знач.:	0.000000	Мин.знач.:	0	Макс.знач.:	1	Числ.наб.:	22	Стд.откл.:	нет данных	К.вар.%:	нет данных	Медиана:	0.000323
+Длительность_работы           	Тип:	get_value	Значение:	100
+
