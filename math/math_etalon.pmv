@@ -1,4 +1,4 @@
-Results_file   = math.pmv    2013-Apr-03 23:29:01.447351
+Results_file   = math.pmv    2013-Apr-07 16:57:55.045999
 Run_file       = math.smr
 Model_name     = math
 Resource_file  = math.rss
@@ -7,10 +7,10 @@ $Changes
 
 
 $Status = NO_MORE_EVENTS
-$Result_values  0  0  0.103
+$Result_values  0  0  0.021
   EventCount           0  -nan  0
   OperRuleCheckCounter 0  -nan  0
-  AExpCalcCounter      27  inf  262
+  AExpCalcCounter      27  inf  1285
   BExpCalcCounter      0  -nan  0
 
 sin1                          	Тип:	get_value	Значение:	0.841471
@@ -72,22 +72,22 @@ IntPower3                     	Тип:	get_value	Значение:	-8
 Ln1                           	Тип:	get_value	Значение:	0
 Ln2                           	Тип:	get_value	Значение:	2.30259
 Ln3                           	Тип:	get_value	Значение:	1.60944
-Ln4                           	Тип:	get_value	Значение:	-nan
+Ln4                           	Тип:	get_value	Значение:	nan
 Ln5                           	Тип:	get_value	Значение:	4.38341
 Log101                        	Тип:	get_value	Значение:	0
 Log102                        	Тип:	get_value	Значение:	1
 Log103                        	Тип:	get_value	Значение:	0.69897
-Log104                        	Тип:	get_value	Значение:	-nan
+Log104                        	Тип:	get_value	Значение:	nan
 Log105                        	Тип:	get_value	Значение:	1.90369
 Log21                         	Тип:	get_value	Значение:	0
 Log22                         	Тип:	get_value	Значение:	3.32193
 Log23                         	Тип:	get_value	Значение:	2.32193
-Log24                         	Тип:	get_value	Значение:	-nan
+Log24                         	Тип:	get_value	Значение:	nan
 Log25                         	Тип:	get_value	Значение:	6.32393
 LogN1                         	Тип:	get_value	Значение:	0
 LogN2                         	Тип:	get_value	Значение:	0.676258
-LogN3                         	Тип:	get_value	Значение:	-nan
-LogN4                         	Тип:	get_value	Значение:	-nan
+LogN3                         	Тип:	get_value	Значение:	nan
+LogN4                         	Тип:	get_value	Значение:	nan
 LogN5                         	Тип:	get_value	Значение:	1.398
 Max1                          	Тип:	get_value	Значение:	5
 Max2                          	Тип:	get_value	Значение:	5
