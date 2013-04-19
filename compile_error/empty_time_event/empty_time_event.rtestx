@@ -1,4 +1,0 @@
-<?xml version="1.0"?>
-<test>
-    <model name="empty_time_event.rdox" target="CONSOLE" exit_code="3" log_compilation="empty_time_event.rlog"/>
-</test>
