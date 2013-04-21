@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="windows-1251"?>
+<?xml version="1.0" encoding="utf-8"?>
 <test>
   <model name="комбинация русских букв and английских with пробелами.rdox" target="CONSOLE" exit_code="0"/>
   <etalons>
