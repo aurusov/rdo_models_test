@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <test>
   <model name="model_not_found.rdox" target="CONSOLE" exit_code="1"/>
 </test>
