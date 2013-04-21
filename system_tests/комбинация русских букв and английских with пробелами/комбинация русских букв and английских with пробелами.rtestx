@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <test>
-  <model name="комбинация русских букв and английских with пробелами.rdox" target="CONSOLE" exit_code="0"/>
+  <model name="РєРѕРјР±РёРЅР°С†РёСЏ СЂСѓСЃСЃРєРёС… Р±СѓРєРІ and Р°РЅРіР»РёР№СЃРєРёС… with РїСЂРѕР±РµР»Р°РјРё.rdox" target="CONSOLE" exit_code="0"/>
   <etalons>
-    <file source="комбинация русских букв and английских with пробелами.trc" target="комбинация русских букв and английских with пробелами_etalon.trc" type="TRACE"/>
-    <file source="комбинация русских букв and английских with пробелами.pmv" target="комбинация русских букв and английских with пробелами_etalon.pmv" type="RESULT"/>
+    <file source="РєРѕРјР±РёРЅР°С†РёСЏ СЂСѓСЃСЃРєРёС… Р±СѓРєРІ and Р°РЅРіР»РёР№СЃРєРёС… with РїСЂРѕР±РµР»Р°РјРё.trc" target="РєРѕРјР±РёРЅР°С†РёСЏ СЂСѓСЃСЃРєРёС… Р±СѓРєРІ and Р°РЅРіР»РёР№СЃРєРёС… with РїСЂРѕР±РµР»Р°РјРё_etalon.trc" type="TRACE"/>
+    <file source="РєРѕРјР±РёРЅР°С†РёСЏ СЂСѓСЃСЃРєРёС… Р±СѓРєРІ and Р°РЅРіР»РёР№СЃРєРёС… with РїСЂРѕР±РµР»Р°РјРё.pmv" target="РєРѕРјР±РёРЅР°С†РёСЏ СЂСѓСЃСЃРєРёС… Р±СѓРєРІ and Р°РЅРіР»РёР№СЃРєРёС… with РїСЂРѕР±РµР»Р°РјРё_etalon.pmv" type="RESULT"/>
   </etalons>
 </test>
