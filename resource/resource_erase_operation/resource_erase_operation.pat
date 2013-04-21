@@ -1,7 +1,7 @@
-$Pattern образец_удаления_парикмахера: operation trace
+$Pattern РѕР±СЂР°Р·РµС†_СѓРґР°Р»РµРЅРёСЏ_РїР°СЂРёРєРјР°С…РµСЂР°: operation trace
 $Relevant_resources
-	_Парикмахер: Парикмахеры Erase NonExist
+	_РџР°СЂРёРєРјР°С…РµСЂ: РџР°СЂРёРєРјР°С…РµСЂС‹ Erase NonExist
 $Time = 5
 $Body
-_Парикмахер
+_РџР°СЂРёРєРјР°С…РµСЂ
 $End

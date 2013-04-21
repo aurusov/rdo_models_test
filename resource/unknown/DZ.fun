@@ -1,3 +1,3 @@
-$Sequence Последовательность_1: real
+$Sequence РџРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚СЊ_1: real
 $Type = triangular 1234
 $End

@@ -1,4 +1,4 @@
 $Results
-    Парикмахеры           : watch_quant Парикмахеры NoCheck
-	Длительность_работы   : get_value   Time_now
+    РџР°СЂРёРєРјР°С…РµСЂС‹           : watch_quant РџР°СЂРёРєРјР°С…РµСЂС‹ NoCheck
+	Р”Р»РёС‚РµР»СЊРЅРѕСЃС‚СЊ_СЂР°Р±РѕС‚С‹   : get_value   Time_now
 $End

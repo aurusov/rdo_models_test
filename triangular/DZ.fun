@@ -1,3 +1,3 @@
-$Sequence Интервал_прихода_заготок : real
+$Sequence РРЅС‚РµСЂРІР°Р»_РїСЂРёС…РѕРґР°_Р·Р°РіРѕС‚РѕРє : real
 $Type = triangular 1234	
 $End

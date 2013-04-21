@@ -1,6 +1,6 @@
 Show_mode      = NoShow
 Show_rate      = 3600.0
 
-событие_прихода_парикмахера.planning(0)
+СЃРѕР±С‹С‚РёРµ_РїСЂРёС…РѕРґР°_РїР°СЂРёРєРјР°С…РµСЂР°.planning(0)
 
 Terminate_if Time_now == 100

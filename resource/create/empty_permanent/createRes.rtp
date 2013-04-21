@@ -1,5 +1,5 @@
 $Resource_type restype1: permanent
 $Parameters
 	i        : integer
-	Состояние: (Свободен, Занят)
+	РЎРѕСЃС‚РѕСЏРЅРёРµ: (РЎРІРѕР±РѕРґРµРЅ, Р—Р°РЅСЏС‚)
 $End

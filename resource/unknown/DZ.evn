@@ -1,17 +1,17 @@
-$Pattern Событие_1: event
+$Pattern РЎРѕР±С‹С‚РёРµ_1: event
 $Relevant_resources
-	_ресурс: ресурс Keep
+	_СЂРµСЃСѓСЂСЃ: СЂРµСЃСѓСЂСЃ Keep
 $Body
-	_ресурс
+	_СЂРµСЃСѓСЂСЃ
 	Convert_event
-		Событие_2.Planning(Time_now + Последовательность_1(160,190,200));
+		РЎРѕР±С‹С‚РёРµ_2.Planning(Time_now + РџРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚СЊ_1(160,190,200));
 $End
 
-$Pattern Событие_2: event
+$Pattern РЎРѕР±С‹С‚РёРµ_2: event
 $Relevant_resources
-	_ресурс: ресурс Keep
+	_СЂРµСЃСѓСЂСЃ: СЂРµСЃСѓСЂСЃ Keep
 $Body
-	_ресурс
+	_СЂРµСЃСѓСЂСЃ
 	Convert_event
-		состояние = Занят;
+		СЃРѕСЃС‚РѕСЏРЅРёРµ = Р—Р°РЅСЏС‚;
 $End

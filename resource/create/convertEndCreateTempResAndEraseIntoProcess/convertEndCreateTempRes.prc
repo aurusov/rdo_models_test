@@ -1,4 +1,4 @@
-$Process proc Транзакты
+$Process proc РўСЂР°РЅР·Р°РєС‚С‹
 	SEIZE     STANOK
 	ADVANCE   20
 	RELEASE   STANOK

@@ -1,17 +1,17 @@
 $Pattern pat: operation
 $Relevant_resources
 	robot   : resource  Keep     Keep
-	Транзакт: Транзакты NonExist Create
+	РўСЂР°РЅР·Р°РєС‚: РўСЂР°РЅР·Р°РєС‚С‹ NonExist Create
 $Time = 40
 $Body
 robot
-	Choice from robot.Состояние == Свободен
+	Choice from robot.РЎРѕСЃС‚РѕСЏРЅРёРµ == РЎРІРѕР±РѕРґРµРЅ
 	Convert_begin
-		Состояние = Занят;
+		РЎРѕСЃС‚РѕСЏРЅРёРµ = Р—Р°РЅСЏС‚;
 	Convert_end
-		Состояние = Свободен;
-Транзакт
+		РЎРѕСЃС‚РѕСЏРЅРёРµ = РЎРІРѕР±РѕРґРµРЅ;
+РўСЂР°РЅР·Р°РєС‚
 	Convert_end
-		Время_создания = time_now;
-		proc.ProcessStart(Транзакт);
+		Р’СЂРµРјСЏ_СЃРѕР·РґР°РЅРёСЏ = time_now;
+		proc.ProcessStart(РўСЂР°РЅР·Р°РєС‚);
 $End

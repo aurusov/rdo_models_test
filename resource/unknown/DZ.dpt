@@ -1,5 +1,5 @@
-$Decision_point Точка_2: some
+$Decision_point РўРѕС‡РєР°_2: some
 $Condition NoCheck
 $Activities
-	Операция_1: Образец
+	РћРїРµСЂР°С†РёСЏ_1: РћР±СЂР°Р·РµС†
 $End

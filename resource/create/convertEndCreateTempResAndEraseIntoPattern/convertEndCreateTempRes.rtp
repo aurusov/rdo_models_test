@@ -1,10 +1,10 @@
 $Resource_type resourceType: permanent
 $Parameters
-	Состояние : (Свободен, Занят)
+	РЎРѕСЃС‚РѕСЏРЅРёРµ : (РЎРІРѕР±РѕРґРµРЅ, Р—Р°РЅСЏС‚)
 $End
 
-$Resource_type Транзакты: temporary
+$Resource_type РўСЂР°РЅР·Р°РєС‚С‹: temporary
 $Parameters
-	Время_создания: real
+	Р’СЂРµРјСЏ_СЃРѕР·РґР°РЅРёСЏ: real
 $End
 

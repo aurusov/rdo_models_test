@@ -1,6 +1,6 @@
 Show_mode      = NoShow
 Show_rate      = 3600.0
 
-Образец_прихода_клиента.planning( )
+РћР±СЂР°Р·РµС†_РїСЂРёС…РѕРґР°_РєР»РёРµРЅС‚Р°.planning( )
 
 Terminate_if true

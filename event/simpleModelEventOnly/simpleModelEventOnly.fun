@@ -1,7 +1,7 @@
-$Sequence Время_между_приходами : real
+$Sequence Р’СЂРµРјСЏ_РјРµР¶РґСѓ_РїСЂРёС…РѕРґР°РјРё : real
 $Type = exponential 123456789
 $End
 
-$Sequence Длительность_обслуживания : real
+$Sequence Р”Р»РёС‚РµР»СЊРЅРѕСЃС‚СЊ_РѕР±СЃР»СѓР¶РёРІР°РЅРёСЏ : real
 $Type = uniform 123456789
 $End
