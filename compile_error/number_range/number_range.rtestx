@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <test>
     <model name="number_range.rdox" target="CONSOLE" exit_code="3" log_compilation="number_range.rlog"/>
 </test>
