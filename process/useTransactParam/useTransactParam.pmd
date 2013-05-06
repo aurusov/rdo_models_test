@@ -1,0 +1,3 @@
+$Results
+	Занятость_робота : watch_state ROBOT.Состояние == Занят
+$End

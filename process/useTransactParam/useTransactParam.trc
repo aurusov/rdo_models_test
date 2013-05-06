@@ -1,0 +1,85 @@
+Results_file   = useTransactParam.pmv    2013-May-07 00:12:26.693398
+Run_file       = useTransactParam.smr
+Model_name     = useTransactParam
+Resource_file  = useTransactParam.rss
+
+$Changes
+
+
+$Resource_type
+1 заготовки 1
+  1 Время_создания R
+2 QDEPART 1
+  1 длина_очереди I
+3 ROBOTs 1
+  1 Состояние E 2
+    0 Свободен
+    1 Занят
+
+$Resources
+1 FMS_IN 2
+2 ROBOT 3
+
+$Pattern
+
+$Activities
+
+
+
+$Watching
+
+$Tracing
+ES 0 1
+RK 0 2 1 0
+RK 0 3 2 0
+ES 0 3
+RC 7 1 3 0 7
+RK 7 3 2 1
+RC 14 1 4 0 14
+RK 17 3 2 0
+RK 17 3 2 1
+RE 17 1 3 0 7
+RC 21 1 3 0 21
+RK 27 3 2 0
+RK 27 3 2 1
+RE 27 1 4 0 14
+RC 28 1 4 0 28
+RC 35 1 5 0 35
+RK 37 3 2 0
+RK 37 3 2 1
+RE 37 1 3 0 21
+RC 42 1 3 0 42
+RK 47 3 2 0
+RK 47 3 2 1
+RE 47 1 4 0 28
+RC 49 1 4 0 49
+RC 56 1 6 0 56
+RK 57 3 2 0
+RK 57 3 2 1
+RE 57 1 5 0 35
+RC 63 1 5 0 63
+RK 67 3 2 0
+RK 67 3 2 1
+RE 67 1 3 0 42
+RC 70 1 3 0 70
+RC 77 1 7 0 77
+RK 77 3 2 0
+RK 77 3 2 1
+RE 77 1 4 0 49
+RC 84 1 4 0 84
+RK 87 3 2 0
+RK 87 3 2 1
+RE 87 1 6 0 56
+RC 91 1 6 0 91
+RK 97 3 2 0
+RK 97 3 2 1
+RE 97 1 5 0 63
+RC 98 1 5 0 98
+RC 105 1 8 0 105
+RK 107 3 2 0
+RK 107 3 2 1
+RE 107 1 3 0 70
+ES 107 2
+$Status = NORMAL_TERMINATION 107
+
+DPS_MM 2421
