@@ -1,4 +1,4 @@
-$Process Обработка_изделий заготовки
+$Process Обработка_изделий Заготовки
 	GENERATE  7
 
 	QUEUE     FMS_IN
