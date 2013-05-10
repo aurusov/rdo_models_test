@@ -1,5 +1,0 @@
-$Resource_type resource: permanent
-$Parameters
-	state: ( free, buzy )
-	num  : integer
-$End
