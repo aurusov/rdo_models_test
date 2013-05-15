@@ -1,0 +1,4 @@
+$Resource_type заготовки: permanent
+$Parameters
+	Время_создания : real
+$End

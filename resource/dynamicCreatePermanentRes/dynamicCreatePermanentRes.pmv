@@ -1,0 +1,17 @@
+Results_file   = dynamicCreatePermanentRes.pmv    2013-May-16 00:39:49.806453
+Run_file       = dynamicCreatePermanentRes.smr
+Model_name     = dynamicCreatePermanentRes
+Resource_file  = dynamicCreatePermanentRes.rss
+
+$Changes
+
+
+$Status = NORMAL_TERMINATION
+$Result_values  0  5600  0.048
+  EventCount           0  0  0
+  OperRuleCheckCounter 0  0  0
+  AExpCalcCounter      0  0  0
+  BExpCalcCounter      67  0.0119643  1395
+
+Очередь_FMS_IN                	Тип:	par	Посл.знач.:	2	Ср.знач.:	0.910714	Мин.знач.:	0	Макс.знач.:	2	Числ.наб.:	13	Стд.откл.:	0.762439	К.вар.%:	63.830532	Медиана:	0.003649
+
