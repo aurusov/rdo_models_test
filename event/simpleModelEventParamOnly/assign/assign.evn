@@ -5,6 +5,6 @@ $Relevant_resources
 $Body
 _system
 	Convert_event
-		if (param > 1)
-			Event1.Planning(Time_now + 10, 0);
+		Event1.Planning(Time_now + 10, 10);
+		dummy += param;
 $End
