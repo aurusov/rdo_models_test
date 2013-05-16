@@ -1,6 +1,1 @@
-Show_mode      = NoShow
-Show_rate      = 3600.0
-
-Событие_прихода_заявки.Planning(Время_между_приходами(30), 0)
-
-Terminate_if Time_now >= 12 * 7 * 60
+Event1.Planning(0, 10)
