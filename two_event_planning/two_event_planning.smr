@@ -1,0 +1,6 @@
+	Show_mode                      = NoShow
+	Show_rate                      = 450.0
+	client_come.planning(0)
+	client_come.planning(1)
+	Terminate_if Time_now >= 10
+

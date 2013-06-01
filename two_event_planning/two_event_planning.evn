@@ -1,0 +1,9 @@
+$Pattern client_come : event
+$Relevant_resources
+	_Парикмахерская: Парикмахерская Keep
+$Body
+_Парикмахерская
+	Convert_event
+		client_come.planning( time_now + 1);
+		количество_в_очереди++;
+$End
