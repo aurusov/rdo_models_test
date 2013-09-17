@@ -1,0 +1,21 @@
+Results_file   = undef_test.pmv    2013-Sep-17 08:37:12.400472
+Run_file       = undef_test.smr
+Model_name     = undef_test
+Resource_file  = undef_test.rss
+
+$Changes
+
+
+$Status = NORMAL_TERMINATION
+$Result_values  0  5051.16  20.378
+  EventCount           304  0.0601842  14
+  OperRuleCheckCounter 455  0.0900784  22
+  AExpCalcCounter      156  0.030884  7
+  BExpCalcCounter      3358  0.664798  164
+
+Занятость_парикмахера         	Тип:	state	Посл.знач.:	FALSE	% соотв.:	0.877315	Мин.длит.:	20.021139	Макс.длит.:	39.995826	Числ.наб.:	150
+Длина_очереди                 	Тип:	par	Посл.знач.:	3	Ср.знач.:	2.795509	Мин.знач.:	0	Макс.знач.:	9	Числ.наб.:	304	Стд.откл.:	2.311760	К.вар.%:	191.172151	Медиана:	2.078763
+Всего_обслужено               	Тип:	get_value	Значение:	150
+Пропускная_способность        	Тип:	get_value	Значение:	1.78177
+Длительность_работы           	Тип:	get_value	Значение:	84.186
+
