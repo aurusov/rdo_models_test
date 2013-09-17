@@ -1,0 +1,18 @@
+Results_file   = two_event_planning.pmv    2013-Sep-17 07:26:35.938565
+Run_file       = two_event_planning.smr
+Model_name     = two_event_planning
+Resource_file  = two_event_planning.rss
+
+$Changes
+
+
+$Status = NORMAL_TERMINATION
+$Result_values  0  10  0.048
+  EventCount           10  1  208
+  OperRuleCheckCounter 0  0  0
+  AExpCalcCounter      11  1.1  229
+  BExpCalcCounter      22  2.2  458
+
+Длина_очереди                 	Тип:	par	Посл.знач.:	10	Ср.знач.:	4.500000	Мин.знач.:	0	Макс.знач.:	10	Числ.наб.:	11	Стд.откл.:	2.872281	К.вар.%:	183.333333	Медиана:	4.000000
+Длительность_работы           	Тип:	get_value	Значение:	0.166667
+

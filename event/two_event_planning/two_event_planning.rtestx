@@ -1,12 +1,8 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <test>
-  <model name="multirun_style_three_run.rdox" target="CONSOLE" exit_code="0"/>
-  <etalons>
-    <file source="multirun_style_three_run-1.trc" target="multirun_style_three_run_etalon-1.trc" type="TRACE"/>
-    <file source="multirun_style_three_run-1.pmv" target="multirun_style_three_run_etalon-1.pmv" type="RESULT"/>
-    <file source="multirun_style_three_run-2.trc" target="multirun_style_three_run_etalon-2.trc" type="TRACE"/>
-    <file source="multirun_style_three_run-2.pmv" target="multirun_style_three_run_etalon-2.pmv" type="RESULT"/>
-    <file source="multirun_style_three_run-3.trc" target="multirun_style_three_run_etalon-3.trc" type="TRACE"/>
-    <file source="multirun_style_three_run-3.pmv" target="multirun_style_three_run_etalon-3.pmv" type="RESULT"/>
-  </etalons>
+	<model name="two_event_planning_etalon.rdox" target="CONSOLE" exit_code="0"/>
+	<etalons>
+		<file source="two_event_planning_etalon.trc" target="two_event_planning_etalon.trc" type="TRACE"/>
+		<file source="two_event_planning_etalon.pmv" target="two_event_planning_etalon.pmv" type="RESULT"/>
+	</etalons>
 </test>
