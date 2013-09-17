@@ -2,7 +2,7 @@
 <test>
 	<model name="two_event_planning_etalon.rdox" target="CONSOLE" exit_code="0"/>
 	<etalons>
-		<file source="two_event_planning_etalon.trc" target="two_event_planning_etalon.trc" type="TRACE"/>
-		<file source="two_event_planning_etalon.pmv" target="two_event_planning_etalon.pmv" type="RESULT"/>
+		<file source="two_event_planning.trc" target="two_event_planning_etalon.trc" type="TRACE"/>
+		<file source="two_event_planning.pmv" target="two_event_planning_etalon.pmv" type="RESULT"/>
 	</etalons>
 </test>
