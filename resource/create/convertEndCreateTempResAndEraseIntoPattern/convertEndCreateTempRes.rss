@@ -1,3 +1,4 @@
 $Resources
-	resource  : resourceType  trace Свободен
+	resourceType resource = new resourceType(Свободен);
+	resource.trace();
 $End
