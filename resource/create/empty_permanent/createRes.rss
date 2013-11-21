@@ -1,3 +1,3 @@
 $Resources
-	restype1 res1 = new restype1 (0, Свободен);
+	restype1 res1 = new restype1(0, Свободен);
 $End
