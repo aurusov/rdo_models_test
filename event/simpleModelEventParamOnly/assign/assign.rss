@@ -1,4 +1,4 @@
 $Resources
-	Systems system = new Systems(*);
+	system = Systems(*);
 	system.trace();
 $End
