@@ -4,13 +4,13 @@ $Relevant_resources
 	Транзакт: Транзакты NonExist Create
 $Time = 40
 $Body
-robot
+robot:
 	Choice from robot.Состояние == Свободен
 	Convert_begin
 		Состояние = Занят;
 	Convert_end
 		Состояние = Свободен;
-Транзакт
+Транзакт:
 	Convert_end
 		Время_создания = time_now;
 $End
@@ -19,6 +19,6 @@ $Pattern patErase: rule
 $Relevant_resources
 	Транзакт: Транзакты Erase
 $Body
-Транзакт
+Транзакт:
 	Convert_rule
 $End

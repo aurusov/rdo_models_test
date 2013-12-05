@@ -3,5 +3,5 @@ $Relevant_resources
 	_Парикмахер: Парикмахеры Erase NonExist
 $Time = 5
 $Body
-_Парикмахер
+_Парикмахер:
 $End

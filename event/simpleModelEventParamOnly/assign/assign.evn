@@ -3,7 +3,7 @@ $Parameters param: integer
 $Relevant_resources
 	_system: system Keep
 $Body
-_system
+_system:
 	Convert_event
 		Event1.Planning(Time_now + 10, 10);
 		dummy += param;

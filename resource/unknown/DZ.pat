@@ -3,7 +3,7 @@ $Relevant_resources
 	ресурс_: ресурсы Keep NoChange
 $Time = 100
 $Body
-ресурс_
+ресурс_:
 	Choice from 1 > 0
 	first
 	Convert_begin

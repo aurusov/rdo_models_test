@@ -2,7 +2,7 @@ $Pattern событие_прихода_парикмахера : event trace
 $Relevant_resources
 	_Парикмахер: Парикмахеры Create
 $Body
-_Парикмахер
+_Парикмахер:
 	Convert_event
 	состояние = Свободен;
 	событие_прихода_парикмахера.planning(time_now + 10);
