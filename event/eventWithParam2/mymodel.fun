@@ -1,5 +1,7 @@
 $Constant
-Количество_шпинделей_станка : integer = 2
+	param1 : integer = 1
+	param2 : integer = 2
+	param3 : integer = 3
 $End
 
 $Sequence Интервал_прихода : real
@@ -8,8 +10,4 @@ $End
 
 $Sequence Длительность_обслуживания : real
 $Type = uniform 123456789
-$End
-
-$Sequence Среднее_число_одновременно_поступающих_заявок : integer
-$Type = normal 123456789
 $End
