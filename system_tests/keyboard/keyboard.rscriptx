@@ -2,10 +2,10 @@
 <rscript>
 	<events>
 		<event name="press" type="key" time="300.0">
-			<param  state="0" key="57" />
+			<param  state="0" key="32" />
 		</event>
-		<event name="release" type="key" time="400.0">
-			<param  state="1" key="57" />
+		<event name="release" type="key" time="310.0">
+			<param  state="1" key="32" />
 		</event>
 	</events>
 </rscript>
