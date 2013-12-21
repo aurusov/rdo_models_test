@@ -1,4 +1,0 @@
-<?xml version="1.0"?>
-<test>
-  <model name="keyboard.rdox" target="CONSOLE" exit_code="0" trace="keyboard_etalon.trc" result="keyboard_etalon.pmv"/>
-</test>
