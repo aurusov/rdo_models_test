@@ -1,0 +1,11 @@
+Model_name     = eventWithParam
+
+Resource_file  = eventWithParam
+OprIev_file    = eventWithParam
+Statistic_file = eventWithParam
+Results_file   = eventWithParam
+Trace_file     = eventWithParam
+Show_mode      = NoShow
+Show_rate      = 3600.0
+
+Terminate_if Time_now >= 12 * 7 * 60

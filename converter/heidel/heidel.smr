@@ -1,0 +1,15 @@
+Model_name = heidel
+
+Resource_file  = heidel
+OprIev_file    = heidel
+Frame_file     = heidel
+Statistic_file = heidel
+Results_file   = heidel
+Trace_file     = heidel
+{Trace_StartTime= 3.5}
+{Trace_EndTime  = 2.0}
+Show_mode      = Animation
+Show_rate      = 1000.0
+
+Terminate_if  –аспилочна€_машина_1.бревна_обработаны >= 50
+

@@ -1,0 +1,17 @@
+$Pattern Образец_прихода_клиента : event
+$Parameters
+	test_integer: integer
+	test_real   : real
+	test_enum   : such_as Парикмахерские.состояние_парикмахера
+	test_bool   : bool
+	test_string : string
+$Relevant_resources
+	_Парикмахерская: Парикмахерская Keep
+  
+$Body
+_Парикмахерская:
+	Convert_event
+		количество_в_очереди = _Парикмахерская.количество_в_очереди + test_integer;
+		Образец_прихода_клиента.planning(time_now + Интервал_прихода(60), test_integer, test_real, test_enum, test_bool, test_string);
+$End
+

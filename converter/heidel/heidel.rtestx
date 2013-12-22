@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<test>
+  <model name="heidel.smr" target="CONVERTOR" exit_code="0"/>
+  <etalons>
+    <file source="heidel.dpt"  target="etalons/heidel.dpt"  type="FULL"/>
+    <file source="heidel.evn"  target="etalons/heidel.evn"  type="FULL"/>
+    <file source="heidel.frm"  target="etalons/heidel.frm"  type="FULL"/>
+    <file source="heidel.fun"  target="etalons/heidel.fun"  type="FULL"/>
+    <file source="heidel.pat"  target="etalons/heidel.pat"  type="FULL"/>
+    <file source="heidel.pmd"  target="etalons/heidel.pmd"  type="FULL"/>
+    <file source="heidel.rdox" target="etalons/heidel.rdox" type="FULL"/>
+    <file source="heidel.rss"  target="etalons/heidel.rss"  type="FULL"/>
+    <file source="heidel.rtp"  target="etalons/heidel.rtp"  type="FULL"/>
+    <file source="heidel.smr"  target="etalons/heidel.smr"  type="FULL"/>
+  </etalons>
+</test>

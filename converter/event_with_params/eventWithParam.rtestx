@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<test>
+  <model name="eventWithParam.smr" target="CONVERTOR" exit_code="0"/>
+  <etalons>
+    <file source="eventWithParam.dpt"  target="etalons/eventWithParam.dpt"  type="FULL"/>
+    <file source="eventWithParam.evn"  target="etalons/eventWithParam.evn"  type="FULL"/>
+    <file source="eventWithParam.fun"  target="etalons/eventWithParam.fun"  type="FULL"/>
+    <file source="eventWithParam.pat"  target="etalons/eventWithParam.pat"  type="FULL"/>
+    <file source="eventWithParam.pmd"  target="etalons/eventWithParam.pmd"  type="FULL"/>
+    <file source="eventWithParam.rdox" target="etalons/eventWithParam.rdox" type="FULL"/>
+    <file source="eventWithParam.rss"  target="etalons/eventWithParam.rss"  type="FULL"/>
+    <file source="eventWithParam.rtp"  target="etalons/eventWithParam.rtp"  type="FULL"/>
+    <file source="eventWithParam.smr"  target="etalons/eventWithParam.smr"  type="FULL"/>
+  </etalons>
+</test>
