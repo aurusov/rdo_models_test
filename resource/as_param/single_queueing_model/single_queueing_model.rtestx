@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test>
+  <model name="single_queueing_model.rdox" target="CONSOLE" exit_code="0"/>
+  <etalons>
+    <file source="single_queueing_model.trc" target="single_queueing_model_etalon.trc" type="TRACE"/>
+    <file source="single_queueing_model.pmv" target="single_queueing_model_etalon.pmv" type="RESULT"/>
+  </etalons>
+</test>

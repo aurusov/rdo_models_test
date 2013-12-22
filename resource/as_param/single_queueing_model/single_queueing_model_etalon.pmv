@@ -1,0 +1,21 @@
+Results_file   = single_queueing_model.pmv    2013-Dec-22 22:39:16.038505
+Run_file       = single_queueing_model.smr
+Model_name     = single_queueing_model
+Resource_file  = single_queueing_model.rss
+
+$Changes
+
+
+$Status = NORMAL_TERMINATION
+$Result_values  0  5051.16  0.602
+  EventCount           303  0.0599862  503
+  OperRuleCheckCounter 454  0.0898804  754
+  AExpCalcCounter      156  0.030884  259
+  BExpCalcCounter      3655  0.723596  6071
+
+Загруженность_канала          	Тип:	state	Посл.знач.:	FALSE	% соотв.:	0.877315	Мин.длит.:	20.021139	Макс.длит.:	39.995826	Числ.наб.:	150
+Длина_очереди                 	Тип:	par	Посл.знач.:	3	Ср.знач.:	2.756990	Мин.знач.:	0	Макс.знач.:	9	Числ.наб.:	304	Стд.откл.:	2.344657	К.вар.%:	199.399130	Медиана:	1.227200
+Всего_обработано              	Тип:	get_value	Значение:	150
+Пропускная_способность        	Тип:	get_value	Значение:	1.78177
+Длительность_работы           	Тип:	get_value	Значение:	84.186
+
