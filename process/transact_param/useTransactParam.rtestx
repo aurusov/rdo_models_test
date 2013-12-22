@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test>
+  <model name="useTransactParam.rdox" target="CONSOLE" exit_code="0"/>
+  <etalons>
+    <file source="useTransactParam.trc" target="useTransactParam_etalon.trc" type="TRACE"/>
+    <file source="useTransactParam.pmv" target="useTransactParam_etalon.pmv" type="RESULT"/>
+  </etalons>
+</test>
