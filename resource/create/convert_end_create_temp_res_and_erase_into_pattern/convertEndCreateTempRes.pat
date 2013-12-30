@@ -11,7 +11,7 @@ robot:
 	Convert_end
 		Состояние = Свободен;
 Транзакт:
-	Convert_end
+	Convert_end trace
 		Время_создания = time_now;
 $End
 
