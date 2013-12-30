@@ -1,0 +1,21 @@
+Results_file   = no_params.pmv    2013-Dec-30 11:20:35.420678
+Run_file       = no_params.smr
+Model_name     = no_params
+Resource_file  = no_params.rss
+
+$Changes
+
+
+$Status = NORMAL_TERMINATION
+$Result_values  0  102.618  0.06
+  EventCount           3  0.0292345  50
+  OperRuleCheckCounter 0  0  0
+  AExpCalcCounter      12  0.116938  200
+  BExpCalcCounter      26  0.253366  433
+
+Занятость_парикмахера         	Тип:	state	Посл.знач.:	FALSE	% соотв.:	0.000000	Мин.длит.:	0.000000	Макс.длит.:	0.000000	Числ.наб.:	0
+Длина_очереди                 	Тип:	par	Посл.знач.:	2	Ср.знач.:	1.395302	Мин.знач.:	0	Макс.знач.:	2	Числ.наб.:	2	Стд.откл.:	0.918551	К.вар.%:	60.469830	Медиана:	0.000000
+Всего_обслужено               	Тип:	get_value	Значение:	0
+Пропускная_способность        	Тип:	get_value	Значение:	0
+Длительность_работы           	Тип:	get_value	Значение:	1.71031
+

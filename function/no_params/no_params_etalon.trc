@@ -1,0 +1,39 @@
+Results_file   = no_params.pmv    2013-Dec-30 11:20:35.360678
+Run_file       = no_params.smr
+Model_name     = no_params
+Resource_file  = no_params.rss
+
+$Changes
+
+
+$Resource_type
+1 Парикмахерские 3
+  1 состояние_парикмахера E 2
+    0 Свободен
+    1 Занят
+  2 количество_в_очереди I
+  3 количество_обслуженных I
+
+$Resources
+1 Парикмахерская 1
+
+$Pattern
+1 Образец_прихода_клиента I 1 1
+
+$Activities
+
+1 Образец_прихода_клиента 1
+
+$Watching
+
+$Tracing
+ES 0 1
+RK 0 1 1 0 0 0
+ES 0 3
+RK 31.0266 1 1 0 2 0
+RK 68.4816 1 1 0 2 0
+RK 102.618 1 1 0 2 0
+ES 102.618 2
+$Status = NORMAL_TERMINATION 102.618
+
+DPS_MM 6158
