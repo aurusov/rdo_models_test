@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test>
+  <model name="assign.rdox" target="CONSOLE" exit_code="0"/>
+  <etalons>
+    <file source="assign.trc" target="assign_etalon.trc" type="TRACE"/>
+  </etalons>
+</test>
