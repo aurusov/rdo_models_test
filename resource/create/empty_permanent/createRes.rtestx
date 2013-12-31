@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test>
+  <model name="createRes.rdox" target="CONSOLE" exit_code="4"/>
+  <etalons>
+    <file source="createRes.trc" target="createRes_etalon.trc" type="TRACE"/>
+  </etalons>
+</test>

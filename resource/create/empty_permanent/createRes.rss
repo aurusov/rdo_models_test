@@ -1,3 +1,4 @@
 $Resources
 	res1 = restype1(0, Свободен);
+	res1.trace();
 $End
