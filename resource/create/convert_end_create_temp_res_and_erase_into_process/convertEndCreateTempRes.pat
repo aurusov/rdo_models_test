@@ -1,4 +1,4 @@
-$Pattern pat: operation
+$Pattern pat: operation trace
 $Relevant_resources
 	robot   : resource  Keep     Keep
 	Транзакт: Транзакты NonExist Create
