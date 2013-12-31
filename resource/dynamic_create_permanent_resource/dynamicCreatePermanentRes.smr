@@ -1,4 +1,4 @@
 Show_mode      = NoShow
 Show_rate      = 3600.0
 
-Terminate_if Time_now >= 12 * 7 * 60
+Terminate_if Terminate_counter == 10
