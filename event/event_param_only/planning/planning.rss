@@ -1,4 +1,0 @@
-$Resources
-	system = Systems(*);
-	system.trace();
-$End
