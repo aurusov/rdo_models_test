@@ -1,0 +1,33 @@
+Results_file   = sinx.pmv    2014-Jan-01 20:00:38.908622
+Run_file       = sinx.smr
+Model_name     = sinx
+Resource_file  = sinx.rss
+
+$Changes
+
+
+$Resource_type
+1 синус 1
+  1 count R
+
+$Resources
+1 синусы 1
+
+$Pattern
+1 евент I 1 1
+
+$Activities
+
+1 евент 1
+
+$Watching
+
+$Tracing
+ES 0 1
+RK 0 1 1 0
+ES 0 3
+RK 0 1 1 1.5708
+ES 0 2
+$Status = NORMAL_TERMINATION 0
+
+DPS_MM 2870

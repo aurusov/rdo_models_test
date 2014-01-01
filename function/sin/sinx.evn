@@ -1,0 +1,9 @@
+$Pattern евент: event
+$Relevant_resources
+	_синус: синусы Keep
+$Body
+_синус:
+	Convert_event
+		евент.planning(time_now + 20);
+		count += 1.5708;
+$End

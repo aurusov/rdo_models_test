@@ -1,0 +1,4 @@
+$Resource_type синус : permanent
+$Parameters
+count : real = 0
+$End

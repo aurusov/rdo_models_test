@@ -1,0 +1,18 @@
+Results_file   = sinx.pmv    2014-Jan-01 20:00:38.955422
+Run_file       = sinx.smr
+Model_name     = sinx
+Resource_file  = sinx.rss
+
+$Changes
+
+
+$Status = NORMAL_TERMINATION
+$Result_values  0  0  0.047
+  EventCount           1  inf  21
+  OperRuleCheckCounter 0  -nan  0
+  AExpCalcCounter      0  -nan  0
+  BExpCalcCounter      3  inf  63
+
+count                         	Тип:	get_value	Значение:	1
+Длительность_работы           	Тип:	get_value	Значение:	0
+

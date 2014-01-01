@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test>
+  <model name="sinx.rdox" target="CONSOLE" exit_code="0"/>
+  <etalons>
+    <file source="sinx.trc" target="sinx_etalon.trc" type="TRACE"/>
+    <file source="sinx.pmv" target="sinx_etalon.pmv" type="RESULT"/>
+  </etalons>
+</test>

@@ -1,0 +1,6 @@
+Show_mode      = NoShow
+Show_rate      = 3600.0
+
+Terminate_if синусы.count == 1.5708
+
+евент.planning(0)

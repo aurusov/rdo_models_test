@@ -1,0 +1,4 @@
+$Results
+	count                 : get_value   Sin(синусы.count)
+	Длительность_работы   : get_value   Time_now
+$End
