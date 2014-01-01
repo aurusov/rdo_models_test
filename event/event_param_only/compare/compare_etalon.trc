@@ -1,0 +1,36 @@
+Results_file   = compare.pmv    2014-Jan-01 04:04:41.563808
+Run_file       = compare.smr
+Model_name     = compare
+Resource_file  = compare.rss
+
+$Changes
+
+
+$Resource_type
+1 Systems 1
+  1 dummy I
+
+$Resources
+1 system 1
+
+$Pattern
+1 Event1 I 1 1
+
+$Activities
+
+1 Event1 1
+
+$Watching
+
+$Tracing
+ES 0 1
+RK 0 1 1 0
+ES 0 3
+EI 0 1 1 1  1
+RK 0 1 1 10
+EI 10 1 1 1  1
+RK 10 1 1 0
+ES 10 2
+$Status = NO_MORE_EVENTS 10
+
+DPS_MM 2482
