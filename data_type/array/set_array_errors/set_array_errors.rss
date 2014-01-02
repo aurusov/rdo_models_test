@@ -1,0 +1,4 @@
+$Resources
+	TEST = array_container([0]);
+	TEST.trace();
+$End

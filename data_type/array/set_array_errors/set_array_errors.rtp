@@ -1,0 +1,4 @@
+$Resource_type array_container : permanent
+$Parameters
+Param_1 :array <integer>
+$End

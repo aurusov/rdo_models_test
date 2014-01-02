@@ -1,0 +1,8 @@
+$Pattern testing : event
+$Relevant_resources
+REL_TEST : TEST Keep
+$Body
+	REL_TEST
+	Convert_event
+		testing_of_array(Param_1);
+$End
