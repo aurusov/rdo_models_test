@@ -1,0 +1,30 @@
+$Pattern testing : event
+$Relevant_resources
+RES : Ресурс Keep
+$Body
+  RES:
+  Convert_event
+    if (fun_test(RES) == 4)
+	{
+		Param_1 = [1,2,3] ;
+		testing.planning( time_now + 5);
+	}
+	else 
+	{
+		if (fun_test(RES) == 3)
+		{
+			Param_1 = [1,2];
+			testing.planning( time_now + 5);
+		}
+		else 
+		{
+			if (fun_test(RES) == 2)
+			{
+				Param_1 = [1];
+				testing.planning( time_now + 5);
+			}
+			else
+			Param_2 = fun_test2();
+		}
+	}
+$End

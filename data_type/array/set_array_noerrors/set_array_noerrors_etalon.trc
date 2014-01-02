@@ -1,0 +1,37 @@
+Results_file   = set_array_noerrors.pmv    2014-Jan-02 20:16:59.964456
+Run_file       = set_array_noerrors.smr
+Model_name     = set_array_noerrors
+Resource_file  = set_array_noerrors.rss
+
+$Changes
+
+
+$Resource_type
+1 Тестовый_тип 2
+  1 Param_1 A I
+  2 Param_2 I
+
+$Resources
+1 Ресурс 1
+
+$Pattern
+1 testing I 1 1
+
+$Activities
+
+1 testing 1
+
+$Watching
+
+$Tracing
+ES 0 1
+RK 0 1 1 [1, 2, 3, 4] 0
+ES 0 3
+RK 1 1 1 [1, 2, 3] 0
+RK 6 1 1 [1, 2] 0
+RK 11 1 1 [1] 0
+RK 16 1 1 [1] 8
+ES 16 2
+$Status = NO_MORE_EVENTS 16
+
+DPS_MM 4550

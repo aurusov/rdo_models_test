@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test>
+  <model name="set_array_noerrors.rdox" target="CONSOLE" exit_code="0"/>
+  <etalons>
+    <file source="set_array_noerrors.trc" target="set_array_noerrors_etalon.trc" type="TRACE"/>
+  </etalons>
+</test>
