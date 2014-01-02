@@ -1,0 +1,10 @@
+$Pattern testing : event
+$Relevant_resources
+	RES : Ресурс Keep
+$Body
+RES:
+	Convert_event
+		Param_1  = fun_test2(0);
+		Param_2  = fun_test2(1);
+		Param_3  = fun_test2(2);
+$End

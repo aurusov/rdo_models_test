@@ -1,0 +1,6 @@
+$Resource_type Тестовый_тип: permanent
+$Parameters
+	Param_1 : array <integer> = [0,0]
+	Param_2 : array <integer> = [0,0]
+	Param_3 : array <integer> = [0,0]
+$End
