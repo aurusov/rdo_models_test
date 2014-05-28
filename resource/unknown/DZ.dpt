@@ -1,5 +1,5 @@
 $Decision_point Точка_2: some
 $Condition NoCheck
 $Activities
-	Операция_1: Образец
+	Операция_1: Образец;
 $End

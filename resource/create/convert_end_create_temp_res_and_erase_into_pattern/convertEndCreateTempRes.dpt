@@ -1,6 +1,6 @@
 $Decision_point dpt: some
 $Condition NoCheck
 $Activities
-	activityCreate: patCreate
-	activityErase : patErase
+	activityCreate: patCreate;
+	activityErase : patErase;
 $End
