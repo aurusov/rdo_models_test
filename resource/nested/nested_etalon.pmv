@@ -1,0 +1,23 @@
+Results_file   = nested.pmv    2014-May-30 02:39:48.340231
+Run_file       = nested.smr
+Model_name     = nested
+Resource_file  = nested.rss
+
+$Changes
+
+
+$Status = NORMAL_TERMINATION
+$Result_values  0  3000  0.143
+  EventCount           299  0.0996667  2090
+  OperRuleCheckCounter 835  0.278333  5839
+  AExpCalcCounter      4934  1.64467  34503
+  BExpCalcCounter      10016  3.33867  70041
+
+Sold_Laptop_1                 	Тип:	get_value	Значение:	12
+Sold_Laptop_2                 	Тип:	get_value	Значение:	23
+Sold_Laptop_3                 	Тип:	get_value	Значение:	28
+Money_got_from_Laptop_1       	Тип:	get_value	Значение:	17988
+Money_got_from_Laptop_2       	Тип:	get_value	Значение:	18377
+Money_got_from_Laptop_3       	Тип:	get_value	Значение:	13972
+Total_money_got               	Тип:	get_value	Значение:	50337
+

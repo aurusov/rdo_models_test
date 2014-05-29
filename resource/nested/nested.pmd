@@ -1,0 +1,11 @@
+$Results
+	Sold_Laptop_1 : get_value Laptop_1.sold
+	Sold_Laptop_2 : get_value Laptop_2.sold
+	Sold_Laptop_3 : get_value Laptop_3.sold
+	Money_got_from_Laptop_1 : get_value Laptop_1.sold * Laptop_1.price
+	Money_got_from_Laptop_2 : get_value Laptop_2.sold * Laptop_2.price
+	Money_got_from_Laptop_3 : get_value Laptop_3.sold * Laptop_3.price
+	Total_money_got : get_value Laptop_1.sold * Laptop_1.price +
+								Laptop_2.sold * Laptop_2.price +
+								Laptop_3.sold * Laptop_3.price
+$End
