@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test>
+  <model name="planning_with_const.rdox" target="CONSOLE" exit_code="0"/>
+  <etalons>
+    <file source="planning_with_const_etalon.trc" target="planning_with_const.trc" type="TRACE"/>
+    <file source="planning_with_const_etalon.pmv" target="planning_with_const.pmv" type="RESULT"/>
+  </etalons>
+</test>
