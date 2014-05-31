@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<test>
+    <model name="const_unknown_identifier_smr.rdox" target="CONSOLE" exit_code="3" log_compilation="const_unknown_identifier_smr.rlog"/>
+</test>
