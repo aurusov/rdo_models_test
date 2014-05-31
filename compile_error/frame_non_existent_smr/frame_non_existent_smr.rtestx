@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<test>
+    <model name="frame_non_existent_smr.rdox" target="CONSOLE" exit_code="3" log_compilation="frame_non_existent_smr.rlog"/>
+</test>
