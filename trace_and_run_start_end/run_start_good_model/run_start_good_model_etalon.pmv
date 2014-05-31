@@ -1,0 +1,22 @@
+Results_file   = seed_with_negative_number.pmv    2014-Apr-29 09:45:42.902344
+Run_file       = seed_with_negative_number.smr
+Model_name     = seed_with_negative_number
+Resource_file  = seed_with_negative_number.rss
+
+$Changes
+  Интервал_прихода.Seed  = 100
+
+
+$Status = NORMAL_TERMINATION
+$Result_values  0  5048.32  0.089
+  EventCount           263  0.0520965  2955
+  OperRuleCheckCounter 386  0.076461  4337
+  AExpCalcCounter      144  0.0285243  1617
+  BExpCalcCounter      2859  0.566327  32123
+
+Занятость_парикмахера         	Тип:	state	Посл.знач.:	FALSE	% соотв.:	0.890937	Мин.длит.:	20.021139	Макс.длит.:	39.995826	Числ.наб.:	122
+Длина_очереди                 	Тип:	par	Посл.знач.:	19	Ср.знач.:	6.813611	Мин.знач.:	0	Макс.знач.:	21	Числ.наб.:	264	Стд.откл.:	5.616971	К.вар.%:	463.049052	Медиана:	1.030503
+Всего_обслужено               	Тип:	get_value	Значение:	122
+Пропускная_способность        	Тип:	get_value	Значение:	1.44999
+Длительность_работы           	Тип:	get_value	Значение:	84.1387
+
