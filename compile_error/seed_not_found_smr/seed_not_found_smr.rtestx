@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<test>
+    <model name="seed_not_found_smr.rdox" target="CONSOLE" exit_code="3" log_compilation="seed_not_found_smr.rlog"/>
+</test>

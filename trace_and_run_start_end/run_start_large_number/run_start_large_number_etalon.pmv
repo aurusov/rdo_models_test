@@ -1,0 +1,22 @@
+Results_file   = rst_good_model.pmv    2014-Apr-29 09:48:33.683862
+Run_file       = rst_good_model.smr
+Model_name     = rst_good_model
+Resource_file  = rst_good_model.rss
+
+$Changes
+  Интервал_прихода.Seed  = 100
+
+
+$Status = NORMAL_TERMINATION
+$Result_values  0  10000  0.011
+  EventCount           0  0  0
+  OperRuleCheckCounter 0  0  0
+  AExpCalcCounter      3  0.0003  272
+  BExpCalcCounter      5  0.0005  454
+
+Занятость_парикмахера         	Тип:	state	Посл.знач.:	FALSE	% соотв.:	-nan	Мин.длит.:	0.000000	Макс.длит.:	0.000000	Числ.наб.:	0
+Длина_очереди                 	Тип:	par	Посл.знач.:	0	Ср.знач.:	-nan	Мин.знач.:	0	Макс.знач.:	0	Числ.наб.:	1	Стд.откл.:	нет данных	К.вар.%:	нет данных	Медиана:	0.000000
+Всего_обслужено               	Тип:	get_value	Значение:	0
+Пропускная_способность        	Тип:	get_value	Значение:	0
+Длительность_работы           	Тип:	get_value	Значение:	166.667
+
