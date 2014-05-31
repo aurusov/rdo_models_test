@@ -1,4 +1,4 @@
-Results_file   = nested.pmv    2014-May-30 02:39:48.340231
+Results_file   = nested.pmv    2014-May-31 23:37:01.775908
 Run_file       = nested.smr
 Model_name     = nested
 Resource_file  = nested.rss
@@ -7,17 +7,20 @@ $Changes
 
 
 $Status = NORMAL_TERMINATION
-$Result_values  0  3000  0.143
-  EventCount           299  0.0996667  2090
-  OperRuleCheckCounter 835  0.278333  5839
-  AExpCalcCounter      4934  1.64467  34503
-  BExpCalcCounter      10016  3.33867  70041
+$Result_values  0  3025.14  0.26
+  EventCount           217  0.0717322  834
+  OperRuleCheckCounter 678  0.224122  2607
+  AExpCalcCounter      5038  1.66538  19376
+  BExpCalcCounter      10064  3.32679  38707
 
+Rating_Laptop_1               	Тип:	par	Посл.знач.:	4.84323	Ср.знач.:	3.331512	Мин.знач.:	0	Макс.знач.:	4.84323	Числ.наб.:	13	Стд.откл.:	1.283431	К.вар.%:	49.442891	Медиана:	3.468995
+Rating_Laptop_2               	Тип:	par	Посл.знач.:	1.75864	Ср.знач.:	2.805105	Мин.знач.:	0	Макс.знач.:	4.84649	Числ.наб.:	25	Стд.откл.:	0.933800	К.вар.%:	31.085553	Медиана:	2.386453
+Rating_Laptop_3               	Тип:	par	Посл.знач.:	2.30192	Ср.знач.:	1.999888	Мин.знач.:	0	Макс.знач.:	4.97138	Числ.наб.:	29	Стд.откл.:	1.106641	К.вар.%:	61.236081	Медиана:	1.520046
 Sold_Laptop_1                 	Тип:	get_value	Значение:	12
-Sold_Laptop_2                 	Тип:	get_value	Значение:	23
+Sold_Laptop_2                 	Тип:	get_value	Значение:	24
 Sold_Laptop_3                 	Тип:	get_value	Значение:	28
 Money_got_from_Laptop_1       	Тип:	get_value	Значение:	17988
-Money_got_from_Laptop_2       	Тип:	get_value	Значение:	18377
+Money_got_from_Laptop_2       	Тип:	get_value	Значение:	19176
 Money_got_from_Laptop_3       	Тип:	get_value	Значение:	13972
-Total_money_got               	Тип:	get_value	Значение:	50337
+Total_money_got               	Тип:	get_value	Значение:	51136
 

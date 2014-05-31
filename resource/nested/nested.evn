@@ -4,7 +4,7 @@ $Relevant_resources
 $Body
 _Client:
 	Convert_event
-		Client_coming.planning( time_now + 20);
+		Client_coming.planning( time_now + normal_sequence(20,5));
 		money_available = Money_Available();
 		laptop_weight = Choose_weight();
 		screen_size = Choose_Screen_Size();

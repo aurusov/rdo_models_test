@@ -6,6 +6,10 @@ $Sequence uniform_sequence : real
 $Type = uniform 12345678
 $End
 
+$Sequence normal_sequence : real
+$Type = normal 12345678
+$End
+
 $Function ifRequired : integer
 $Type = algorithmic
 $Parameters

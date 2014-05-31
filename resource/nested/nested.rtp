@@ -33,6 +33,7 @@ $Parameters
 	price: integer
 	amount: integer = 0
 	sold: integer = 0
+	rating: real = 0
 $End
 
 $Resource_type Clients: temporary
@@ -43,6 +44,6 @@ $Parameters
 	HDD: HDD_Type
 	screen_size: real = 0
 	laptop_weight: real = 0
-	money_available: integer = 0
-	status: (Ready, Done, Left)
+	money_available: real = 0
+	status: (Ready, Done)
 $End

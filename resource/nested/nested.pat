@@ -2,7 +2,7 @@ $Pattern Choosing_laptop_pattern : operation trace
 $Relevant_resources
 	_Client : Clients Keep Erase
 	_Chosen_laptop : Laptop Keep NoChange
-$Time = 10
+$Time = exponential_sequence(20)
 $Body
 _Client:
 	Choice from status == Ready
@@ -25,15 +25,13 @@ _Chosen_laptop:
 	Convert_begin
 		amount--;
 		sold++;
+		rating = price / _Client.money_available * 5;
 $End
 
-$Pattern Client_leaving_pattern : operation trace
+$Pattern Client_leaving_pattern : rule trace
 $Relevant_resources
-	_Client: Clients Keep Erase
-$Time = 0
+	_Client: Clients Erase
 $Body
 _Client:
 	Choice from status == Ready
-	Convert_begin
-		status = Left;
 $End
