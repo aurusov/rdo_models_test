@@ -1,4 +1,4 @@
-Results_file   = nested.pmv    2014-May-31 23:37:01.515102
+Results_file   = nested.pmv    2014-Jun-01 19:08:25.872033
 Run_file       = nested.smr
 Model_name     = nested
 Resource_file  = nested.rss
@@ -16,9 +16,10 @@ $Resource_type
 3 Graphic_Card_Type 2
   1 memory_size I
   2 memory_clock I
-4 HDD_Type 2
+4 HDD_Type 3
   1 memory_size I
   2 rotational_frequency I
+  3 rating R
 5 Laptop 10
   1 CPU 1 CPU_Type 2
   1 number_of_cores I
@@ -29,9 +30,10 @@ $Resource_type
   3 Graphic_Card 3 Graphic_Card_Type 2
   1 memory_size I
   2 memory_clock I
-  4 HDD 4 HDD_Type 2
+  4 HDD 4 HDD_Type 3
   1 memory_size I
   2 rotational_frequency I
+  3 rating R
   5 screen_size R
   6 weight R
   7 price I
@@ -48,9 +50,10 @@ $Resource_type
   3 Graphic_Card 3 Graphic_Card_Type 2
   1 memory_size I
   2 memory_clock I
-  4 HDD 4 HDD_Type 2
+  4 HDD 4 HDD_Type 3
   1 memory_size I
   2 rotational_frequency I
+  3 rating R
   5 screen_size R
   6 laptop_weight R
   7 money_available R
@@ -465,4 +468,4 @@ EI 3025.14 1 1 1  25
 ES 3025.14 2
 $Status = NORMAL_TERMINATION 3025.14
 
-DPS_MM 11448
+DPS_MM 12360

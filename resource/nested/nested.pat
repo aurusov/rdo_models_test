@@ -26,6 +26,7 @@ _Chosen_laptop:
 		amount--;
 		sold++;
 		rating = price / _Client.money_available * 5;
+		HDD.rating = HDD.memory_size / (_Client.HDD.memory_size + HDD.memory_size) * 5;
 $End
 
 $Pattern Client_leaving_pattern : rule trace

@@ -20,6 +20,7 @@ $Resource_type HDD_Type: permanent
 $Parameters
 	memory_size: integer = 0
 	rotational_frequency: integer = 0
+	rating: real = 0
 $End
 
 $Resource_type Laptop: permanent
