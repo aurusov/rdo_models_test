@@ -97,3 +97,58 @@ $Body
 	return ifRequired() * uniform_sequence(0,7200);
 $End
 
+$Function Compute_HDD_rating : real
+$Type = algorithmic
+$Parameters
+_Laptop : Laptop
+_Client : Clients
+$Body
+	real ms = _Laptop.HDD.memory_size / (_Laptop.HDD.memory_size + _Client.desired_Laptop.HDD.memory_size);
+	real rf = _Laptop.HDD.rotational_frequency / (_Laptop.HDD.rotational_frequency + _Client.desired_Laptop.HDD.rotational_frequency);
+	return (ms + rf) / 2 * 5;
+$End
+
+$Function Compute_CPU_rating : real
+$Type = algorithmic
+$Parameters
+_Laptop : Laptop
+_Client : Clients
+$Body
+	real full_laptop_cl = _Laptop.CPU.number_of_cores * _Laptop.CPU.clock_rate;
+	real full_desired_cl = _Client.desired_Laptop.CPU.number_of_cores * _Client.desired_Laptop.CPU.clock_rate;
+	return  full_laptop_cl / ( full_laptop_cl + full_desired_cl) * 5;
+$End
+
+$Function Compute_RAM_rating : real
+$Type = algorithmic
+$Parameters
+_Laptop : Laptop
+_Client : Clients
+$Body
+	real cl = _Laptop.RAM.clock_rate / (_Laptop.RAM.clock_rate + _Client.desired_Laptop.RAM.clock_rate);
+	real ms = _Laptop.RAM.memory_size / (_Laptop.RAM.memory_size + _Client.desired_Laptop.RAM.memory_size);
+	return (cl + ms) / 2 * 5;
+$End
+
+$Function  Compute_Graphic_Card_rating : real
+$Type = algorithmic
+$Parameters
+_Laptop : Laptop
+_Client : Clients
+$Body
+	real ms = _Laptop.Graphic_Card.memory_size / (_Laptop.Graphic_Card.memory_size + _Client.desired_Laptop.Graphic_Card.memory_size);
+	real mc = _Laptop.Graphic_Card.memory_clock / (_Laptop.Graphic_Card.memory_clock + _Client.desired_Laptop.Graphic_Card.memory_clock);
+	return (ms + mc) / 2 * 5;
+$End
+
+$Function Compute_total_rating : real
+$Type = algorithmic
+$Parameters
+_Laptop : Laptop
+_Client : Clients
+$Body
+	return (_Laptop.CPU.rating + 
+			_Laptop.RAM.rating + 
+			_Laptop.Graphic_Card.rating + 
+			_Laptop.HDD.rating ) /4;
+$End
