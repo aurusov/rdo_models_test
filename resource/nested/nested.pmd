@@ -3,7 +3,7 @@ $Results
 	Rating_Laptop_2 : watch_par Laptop_2.rating
 	HDD_Rating_Laptop_1 : watch_par Laptop_1.HDD.rating
 	HDD_Rating_Laptop_2 : watch_par Laptop_2.HDD.rating
-	HDD_2_3_comparison : watch_state Laptop_1.HDD.rating > Laptop_2.HDD.rating
+	HDD_1_2_comparison : watch_state Laptop_1.HDD.rating > Laptop_2.HDD.rating
 	Sold_Laptop_1 : get_value Laptop_1.sold
 	Sold_Laptop_2 : get_value Laptop_2.sold
 	Sold_Laptop_3 : get_value Laptop_3.sold
