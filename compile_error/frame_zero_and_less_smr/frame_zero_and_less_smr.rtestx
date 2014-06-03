@@ -1,4 +1,4 @@
 <?xml version="1.0"?>
 <test>
-    <model name="zero_and_less_smr.rdox" target="CONSOLE" exit_code="3" log_compilation="zero_and_less_smr.rlog"/>
+    <model name="frame_zero_and_less_smr.rdox" target="CONSOLE" exit_code="3" log_compilation="frame_zero_and_less_smr.rlog"/>
 </test>
