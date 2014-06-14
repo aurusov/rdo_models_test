@@ -43,6 +43,6 @@ $End
 $Resource_type Clients: temporary
 $Parameters
 	desired_Laptop : Laptop
-	money_available: real = 0
+	money_available : real = 0
 	status: (Ready, Done)
 $End
