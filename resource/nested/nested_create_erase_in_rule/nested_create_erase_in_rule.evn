@@ -1,0 +1,14 @@
+$Pattern Parent_creation: event trace
+$Relevant_resources
+	_Parent : Parent Create
+$Body
+_Parent:
+	Convert_event
+	Param_3 = 0;
+	Param_2.Param_1 = 1;
+	Param_2.Param_2 = 2;
+	Param_1.Param_1	= 3;
+	Param_1.Param_2.Param_1 = 4;
+	Param_1.Param_2.Param_2 = 5;
+	Parent_creation.planning(Time_now + 20);
+$End
