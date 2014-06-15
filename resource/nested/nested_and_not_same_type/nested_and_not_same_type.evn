@@ -1,0 +1,26 @@
+$Pattern Parent_creation: event trace
+$Relevant_resources
+	_Parent : Parent Create
+$Body
+_Parent:
+	Convert_event
+	Param_3 = 0;
+	Param_2.Param_1 = 1;
+	Param_2.Param_2 = 2;
+	Param_1.Param_1	= 3;
+	Param_1.Param_2.Param_1 = 4;
+	Param_1.Param_2.Param_2 = 5;
+	Parent_creation.planning(Time_now + 50);
+$End
+
+$Pattern Indepentend_creation: event trace
+$Relevant_resources
+	_Independent: Nested_level_1 Create
+$Body
+_Independent:
+	Convert_event
+	Param_1	= 6;
+	Param_2.Param_1 = 8;
+	Param_2.Param_2 = 10;
+	Indepentend_creation.planning(Time_now + 100);
+$End

@@ -1,0 +1,7 @@
+Show_mode      = NoShow
+Show_rate      = 3600.0
+
+Parent_creation.planning(Time_now + 50)
+Indepentend_creation.planning(Time_now + 100)
+
+Terminate_if Time_now >= 500
