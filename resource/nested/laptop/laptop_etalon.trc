@@ -1,7 +1,7 @@
-Results_file   = nested.pmv    2014-Jun-02 00:45:10.310617
-Run_file       = nested.smr
-Model_name     = nested
-Resource_file  = nested.rss
+Results_file   = laptop.pmv    2014-Jun-15 22:55:05.236713
+Run_file       = laptop.smr
+Model_name     = laptop
+Resource_file  = laptop.rss
 
 $Changes
 
@@ -482,4 +482,4 @@ EI 3025.14 1 1 1  27
 ES 3025.14 2
 $Status = NORMAL_TERMINATION 3025.14
 
-DPS_MM 18156
+DPS_MM 18834
