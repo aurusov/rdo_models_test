@@ -1,0 +1,8 @@
+$Results
+	Par_1 : watch_par Parent_1.Param_1.Param_2.Param_2
+	Par_2 : watch_par Parent_2.Param_1.Param_2.Param_1
+	State_1 : watch_state Parent_1.Param_1.Param_1 < Parent_2.Param_1.Param_1
+	State_2 : watch_state Parent_2.Param_2.Param_1 >= Parent_1.Param_1.Param_2.Param_2
+	Value_1 : get_value ( Parent_1.Param_1.Param_2.Param_2 * Parent_2.Param_3) -
+		 (Parent_2.Param_2.Param_2 * 3) + Parent_1.Param_1.Param_1 * (Parent_2.Param_3 + 10)
+$End
