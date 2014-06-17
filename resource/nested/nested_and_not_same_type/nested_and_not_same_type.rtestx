@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test>
+  <model name="nested_and_not_same_type.rdox" target="CONSOLE" exit_code="0"/>
+  <etalons>
+    <file source="nested_and_not_same_type.trc" target="nested_and_not_same_type_etalon.trc" type="TRACE"/>
+    <file source="nested_and_not_same_type.pmv" target="nested_and_not_same_type_etalon.pmv" type="RESULT"/>
+  </etalons>
+</test>
