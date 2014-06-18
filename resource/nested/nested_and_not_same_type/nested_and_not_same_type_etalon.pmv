@@ -1,4 +1,4 @@
-Results_file   = nested_and_not_same_type.pmv    2014-Jun-16 01:10:07.355807
+Results_file   = nested_and_not_same_type.pmv    2014-Jun-18 12:59:34.777387
 Run_file       = nested_and_not_same_type.smr
 Model_name     = nested_and_not_same_type
 Resource_file  = nested_and_not_same_type.rss
@@ -7,11 +7,11 @@ $Changes
 
 
 $Status = NORMAL_TERMINATION
-$Result_values  0  500  0.554
-  EventCount           14  0.028  25
-  OperRuleCheckCounter 39  0.078  70
-  AExpCalcCounter      69  0.138  124
-  BExpCalcCounter      52  0.104  93
+$Result_values  0  500  0.076
+  EventCount           14  0.028  184
+  OperRuleCheckCounter 39  0.078  513
+  AExpCalcCounter      69  0.138  907
+  BExpCalcCounter      52  0.104  684
 
 Parent_quantity               	Тип:	quant	Посл.знач.:	0	Ср.знач.:	0.000000	Мин.знач.:	0	Макс.знач.:	1	Числ.наб.:	19	Стд.откл.:	нет данных	К.вар.%:	нет данных	Медиана:	0.002687
 Independent_quantity          	Тип:	quant	Посл.знач.:	1	Ср.знач.:	0.000000	Мин.знач.:	0	Макс.знач.:	1	Числ.наб.:	10	Стд.откл.:	нет данных	К.вар.%:	нет данных	Медиана:	0.003271
