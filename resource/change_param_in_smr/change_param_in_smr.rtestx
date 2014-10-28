@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <test>
-  <model name="nested_create_erase_in_operation.rdox" target="CONSOLE" exit_code="0"/>
+  <model name="change_param_in_smr.rdox" target="CONSOLE" exit_code="0"/>
   <etalons>
     <file source="change_param_in_smr.trc" target="change_param_in_smr_etalon.trc" type="TRACE"/>
     <file source="change_param_in_smr.pmv" target="change_param_in_smr_etalon.pmv" type="RESULT"/>
