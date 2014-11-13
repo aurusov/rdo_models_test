@@ -1,0 +1,16 @@
+Results_file   = nested_create_erase_in_operation.pmv    2014-Jun-15 21:00:12.303161
+Run_file       = nested_create_erase_in_operation.smr
+Model_name     = nested_create_erase_in_operation
+Resource_file  = nested_create_erase_in_operation.rss
+
+$Changes
+
+
+$Status = NORMAL_TERMINATION
+$Result_values  0  500  0.035
+  EventCount           47  0.094  1342
+  OperRuleCheckCounter 50  0.1  1428
+  AExpCalcCounter      120  0.24  3428
+  BExpCalcCounter      192  0.384  5485
+
+

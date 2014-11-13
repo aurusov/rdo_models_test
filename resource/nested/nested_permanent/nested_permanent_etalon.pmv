@@ -1,0 +1,21 @@
+Results_file   = choice_from_nested_params.pmv    2014-Jun-15 18:14:41.374717
+Run_file       = choice_from_nested_params.smr
+Model_name     = choice_from_nested_params
+Resource_file  = choice_from_nested_params.rss
+
+$Changes
+
+
+$Status = NORMAL_TERMINATION
+$Result_values  0  160  0.068
+  EventCount           26  0.1625  382
+  OperRuleCheckCounter 36  0.225  529
+  AExpCalcCounter      263  1.64375  3867
+  BExpCalcCounter      602  3.7625  8852
+
+Par_1                         	Тип:	par	Посл.знач.:	-20	Ср.знач.:	-0.625000	Мин.знач.:	-20	Макс.знач.:	30	Числ.наб.:	11	Стд.откл.:	нет данных	К.вар.%:	нет данных	Медиана:	-7.328464
+Par_2                         	Тип:	par	Посл.знач.:	-54	Ср.знач.:	-25.000000	Мин.знач.:	-54	Макс.знач.:	10	Числ.наб.:	17	Стд.откл.:	22.427661	К.вар.%:	-2012.000000	Медиана:	-4.253999
+State_1                       	Тип:	state	Посл.знач.:	TRUE	% соотв.:	0.875000	Мин.длит.:	0.000000	Макс.длит.:	40.000000	Числ.наб.:	7
+State_2                       	Тип:	state	Посл.знач.:	TRUE	% соотв.:	0.750000	Мин.длит.:	120.000000	Макс.длит.:	120.000000	Числ.наб.:	1
+Value_1                       	Тип:	get_value	Значение:	-64.2966
+
