@@ -1,5 +1,5 @@
 $Decision_point DPT_1: some
 $Condition NoCheck
 $Activities
-	Activity_1: Pattern_1
+	Activity_1: Pattern_1;
 $End
