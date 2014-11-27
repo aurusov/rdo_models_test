@@ -1,0 +1,11 @@
+$Resources
+	Parent_1 = Parent(
+		Nested_level_1(
+			5,
+			Nested_level_2(10,30)
+		),
+		Nested_level_2(4,5),
+		50
+	);
+$End
+
