@@ -1,0 +1,4 @@
+$Resource_type Type_1 : permanent
+$Parameters
+	Param_1 : integer
+$End

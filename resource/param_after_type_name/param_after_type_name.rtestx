@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test>
+  <model name="param_after_type_name.rdox" target="CONSOLE" exit_code="3" log_compilation="param_after_type_name.rlog"/>
+</test>
