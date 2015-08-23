@@ -1,5 +1,5 @@
 $Decision_point model: some
 $Condition NoCheck
 $Activities
-	Обслуживание_заявки: Образец_обработки_заявки
+	Обслуживание_заявки: Образец_обработки_заявки;
 $End

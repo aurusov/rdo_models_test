@@ -1,6 +1,6 @@
 $Decision_point DPT_1: some
 $Condition NoCheck
 $Activities
-	Activity_1: Pattern_1
-	Activity_2: Pattern_2
+	Activity_1: Pattern_1;
+	Activity_2: Pattern_2;
 $End
