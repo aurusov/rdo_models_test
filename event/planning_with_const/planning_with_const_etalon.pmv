@@ -1,0 +1,23 @@
+Results_file   = planning_with_identifier.pmv    2014-Apr-28 14:13:27.613321
+Run_file       = planning_with_identifier.smr
+Model_name     = planning_with_identifier
+Resource_file  = planning_with_identifier.rss
+
+$Changes
+  Интервал_прихода.Seed                    = 3489034
+  Длительность_обслуживания.Seed  = 234234
+
+
+$Status = NORMAL_TERMINATION
+$Result_values  0  5049.25  0.093
+  EventCount           306  0.060603  3290
+  OperRuleCheckCounter 459  0.0909045  4935
+  AExpCalcCounter      158  0.0312917  1698
+  BExpCalcCounter      3384  0.670198  36387
+
+Занятость_парикмахера         	Тип:	state	Посл.знач.:	TRUE	% соотв.:	0.897339	Мин.длит.:	10.181219	Макс.длит.:	39.922867	Числ.наб.:	152
+Длина_очереди                 	Тип:	par	Посл.знач.:	3	Ср.знач.:	1.921555	Мин.знач.:	0	Макс.знач.:	6	Числ.наб.:	308	Стд.откл.:	1.543154	К.вар.%:	123.927026	Медиана:	1.430170
+Всего_обслужено               	Тип:	get_value	Значение:	151
+Пропускная_способность        	Тип:	get_value	Значение:	1.79432
+Длительность_работы           	Тип:	get_value	Значение:	84.1542
+

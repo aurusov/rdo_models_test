@@ -1,0 +1,39 @@
+Results_file   = rst_not_good_model.pmv    2014-Apr-29 09:55:24.303690
+Run_file       = rst_not_good_model.smr
+Model_name     = rst_not_good_model
+Resource_file  = rst_not_good_model.rss
+
+$Changes
+
+
+$Resource_type
+1 Парикмахерские 3
+  1 состояние_парикмахера E 2
+    0 Свободен
+    1 Занят
+  2 количество_в_очереди I
+  3 количество_обслуженных I
+
+$Resources
+1 Парикмахерская 1
+
+$Pattern
+1 Образец_прихода_клиента I 1 1
+2 Образец_обслуживания_клиента A 1 1
+
+$Activities
+
+1 Образец_прихода_клиента 1
+2 Обслуживание_клиента 2
+
+
+$Watching
+
+$Tracing
+ES 0 1
+RK 0 1 1 0 0 0
+ES 0 3
+ES 5051.16 2
+$Status = NORMAL_TERMINATION 5051.16
+
+DPS_MM 5511

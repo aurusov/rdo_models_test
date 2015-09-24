@@ -1,0 +1,34 @@
+Results_file   = const_check.pmv    2014-Apr-28 19:12:10.073252
+Run_file       = const_check.smr
+Model_name     = const_check
+Resource_file  = const_check.rss
+
+$Changes
+  Интервал_прихода.Seed                    = 3434
+  Длительность_обслуживания.Seed  = 436989
+  test_1                                                  = 20
+  test_2                                                  = 2.56
+  test_3                                                  = 500
+  test_4                                                  = 15.0
+  test_5                                                  = Занят
+  test_6                                                  = 10
+  test_7                                                  = 19.2
+  test_8                                                  = Свободен
+
+
+$Status = NORMAL_TERMINATION
+$Result_values  0  5042.14  0.089
+  EventCount           326  0.0646551  3662
+  OperRuleCheckCounter 489  0.0969826  5494
+  AExpCalcCounter      164  0.0325259  1842
+  BExpCalcCounter      5233  1.03785  58797
+
+test_1                        	Тип:	get_value	Значение:	20
+test_2                        	Тип:	get_value	Значение:	2.56
+test_3                        	Тип:	get_value	Значение:	500
+test_4                        	Тип:	get_value	Значение:	15
+test_5                        	Тип:	state	Посл.знач.:	FALSE	% соотв.:	0.000000	Мин.длит.:	0.000000	Макс.длит.:	0.000000	Числ.наб.:	0
+test_6                        	Тип:	get_value	Значение:	10
+test_7                        	Тип:	get_value	Значение:	19.2
+test_8                        	Тип:	state	Посл.знач.:	FALSE	% соотв.:	0.000000	Мин.длит.:	0.000000	Макс.длит.:	0.000000	Числ.наб.:	0
+

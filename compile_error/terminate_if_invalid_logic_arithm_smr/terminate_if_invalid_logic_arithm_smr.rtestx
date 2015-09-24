@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<test>
+    <model name="terminate_if_invalid_logic_arithm_smr.rdox" target="CONSOLE" exit_code="3" log_compilation="terminate_if_invalid_logic_arithm_smr.rlog"/>
+</test>

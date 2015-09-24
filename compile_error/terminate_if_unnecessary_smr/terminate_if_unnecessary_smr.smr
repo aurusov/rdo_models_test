@@ -1,0 +1,7 @@
+Show_mode      = NoShow
+Show_rate      = 3600.0
+Интервал_прихода.seed          = 3489034
+Длительность_обслуживания.seed = 235456
+Образец_прихода_клиента.planning( time_now + Интервал_прихода( 30 ) )
+Terminate_if Time_now >= 12 * 7 * 60
+Terminate_if Time_now >= 12 * 7 * 50

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test>
+  <model name="trace_start_good_model.rdox" target="CONSOLE" exit_code="0"/>
+  <etalons>
+    <file source="trace_start_good_model_etalon.trc" target="trace_start_good_model.trc" type="TRACE"/>
+    <file source="trace_start_good_model_etalon.pmv" target="trace_start_good_model.pmv" type="RESULT"/>
+  </etalons>
+</test>

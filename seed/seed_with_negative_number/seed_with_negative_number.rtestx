@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test>
+  <model name="seed_with_negative_number.rdox" target="CONSOLE" exit_code="0"/>
+  <etalons>
+    <file source="seed_with_negative_number_etalon.trc" target="seed_with_negative_number.trc" type="TRACE"/>
+    <file source="seed_with_negative_number_etalon.pmv" target="seed_with_negative_number.pmv" type="RESULT"/>
+  </etalons>
+</test>

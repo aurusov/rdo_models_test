@@ -1,0 +1,22 @@
+Results_file   = seed_not_found.pmv    2014-Apr-29 09:31:32.982651
+Run_file       = seed_not_found.smr
+Model_name     = seed_not_found
+Resource_file  = seed_not_found.rss
+
+$Changes
+  Интервал_прихода.Seed  = 100000
+
+
+$Status = NORMAL_TERMINATION
+$Result_values  0  5055.06  0.124
+  EventCount           338  0.0668637  2725
+  OperRuleCheckCounter 503  0.0995042  4056
+  AExpCalcCounter      177  0.0350144  1427
+  BExpCalcCounter      3704  0.732731  29870
+
+Занятость_парикмахера         	Тип:	state	Посл.знач.:	FALSE	% соотв.:	0.962451	Мин.длит.:	20.021139	Макс.длит.:	39.995826	Числ.наб.:	164
+Длина_очереди                 	Тип:	par	Посл.знач.:	10	Ср.знач.:	5.398692	Мин.знач.:	0	Макс.знач.:	12	Числ.наб.:	339	Стд.откл.:	2.697854	К.вар.%:	134.818103	Медиана:	1.823580
+Всего_обслужено               	Тип:	get_value	Значение:	164
+Пропускная_способность        	Тип:	get_value	Значение:	1.94656
+Длительность_работы           	Тип:	get_value	Значение:	84.251
+
